@@ -34,5 +34,10 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'dramabox' => [
+        'web' => env('DRAMABOX_WEB_URL'),
+        'api' => env('DRAMABOX_API_URL'),
+    ],
+
 
 ];

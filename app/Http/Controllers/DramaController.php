@@ -18,7 +18,7 @@ class DramaController extends Controller
     public function index(Request $request)
     {
         $page = $request->input('page', 0);
-        $url = env('DRAMABOX_WEB_URL') . '/_next/data/dramabox_prod_20250801/en/browse/0/' . $page . '.json';
+        $url = config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/browse/0/' . $page . '.json';
         $req = Http::get($url);
         $response = json_decode($req->body());
         $booklist = $response->pageProps->bookList;
@@ -35,7 +35,7 @@ class DramaController extends Controller
     {
         $page = $request->input('page', 1);
         $q = $request->input('q');
-        $url = env('DRAMABOX_WEB_URL') . '/_next/data/dramabox_prod_20250801/en/search/' . $page . '.json?searchValue=' . $q . '&page=' . $page;
+        $url = config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/search/' . $page . '.json?searchValue=' . $q . '&page=' . $page;
         $req = Http::get($url);
         $response = json_decode($req->body());
         $pageNo = $response->pageProps->pageNo;
@@ -68,7 +68,7 @@ class DramaController extends Controller
      */
     public function show(Request $request, $id, $slug)
     {
-        $req = Http::get(env('DRAMABOX_WEB_URL') . '/_next/data/dramabox_prod_20250801/en/drama/' . $id . '/' . $slug . '.json');
+        $req = Http::get(config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/drama/' . $id . '/' . $slug . '.json');
         $response = json_decode($req->body());
         $data = $response->pageProps->bookInfo;
         $chapterlist = $response->pageProps->chapterList;
@@ -81,7 +81,7 @@ class DramaController extends Controller
      */
     public function video(Request $request, $id, $slug, $episode)
     {
-        $req = Http::get(env('DRAMABOX_WEB_URL') . '/_next/data/dramabox_prod_20250801/en/drama/' . $id . '/' . $slug . '.json');
+        $req = Http::get(config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/drama/' . $id . '/' . $slug . '.json');
         $response = json_decode($req->body());
         $data = $response->pageProps->bookInfo;
         $tabData = $response->pageProps->tabData;
@@ -133,7 +133,7 @@ class DramaController extends Controller
             'Content-Type' => 'application/json; charset=UTF-8',
             'Accept-Encoding' => 'gzip, deflate, br',
             'User-Agent' => 'okhttp/4.10.0'
-        ])->post(env('DRAMABOX_API_URL') . '/drama-box/chapterv2/batch/load', [
+        ])->post(config('services.dramabox.api') . '/drama-box/chapterv2/batch/load', [
             'index' => $episode,
             'bookId' => $id
         ]);
