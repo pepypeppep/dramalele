@@ -47,6 +47,19 @@
         })(window, document);
     </script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KDELKPGF7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4KDELKPGF7');
+    </script>
+
     <link rel="stylesheet" href="{{ asset('css/3a766e95339d2e30.css') }}" data-n-g="" />
     @stack('style')
     <link rel="stylesheet" href="{{ asset('css/03f43baa862a5120.css') }}" data-n-p="" />
