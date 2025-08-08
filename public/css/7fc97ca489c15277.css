@@ -1,0 +1,327 @@
+.VideoControl_controlBox__lY2MY {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: calc(100% + 1px);
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 0
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_stopBox__DP9XE {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_stopBox__DP9XE .VideoControl_pausedIcon__rHcpb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1rem;
+    height: 1rem;
+    border: none
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc {
+    width: 100%;
+    height: 1.1rem;
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.6));
+    position: relative;
+    z-index: 9
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressBox__8RpRa {
+    width: 100%;
+    padding: .2rem .24rem;
+    position: absolute;
+    bottom: -.08rem;
+    left: 0;
+    z-index: 99;
+    height: .32rem;
+    display: flex;
+    align-items: center;
+    opacity: .5
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressBox__8RpRa .VideoControl_lineBg__tjdZo {
+    height: .04rem;
+    width: 100%;
+    border-radius: .02rem;
+    background-color: rgba(229,230,235,.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all .2s
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressBox__8RpRa .VideoControl_lineBg__tjdZo .VideoControl_lineItem__lvhQR {
+    height: 100%;
+    border-radius: .02rem 0 0 .02rem;
+    background-color: rgba(229,230,235,.8)
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressBox__8RpRa .VideoControl_lineBg__tjdZo .VideoControl_lineDot__JMD_6 {
+    width: .14rem;
+    height: .14rem;
+    border-radius: 50%;
+    background-color: #fff
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressActiveBox__d_KNG {
+    opacity: 1
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressActiveBox__d_KNG .VideoControl_lineBg__tjdZo {
+    height: .16rem;
+    background-color: hsla(0,0%,100%,.24);
+    border-radius: .06rem
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressActiveBox__d_KNG .VideoControl_lineBg__tjdZo .VideoControl_lineItem__lvhQR {
+    border-radius: .06rem 0 0 .06rem;
+    background-color: hsla(0,0%,100%,.8)
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressActiveBox__d_KNG .VideoControl_lineBg__tjdZo .VideoControl_lineDot__JMD_6 {
+    width: .2rem;
+    height: .32rem;
+    border-radius: .11rem;
+    background-color: #fff
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_progressShowBox__oz_OU {
+    opacity: 1
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBox__RyVq_ {
+    margin-top: .1rem;
+    padding: 0 .32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: .62rem;
+    opacity: 0;
+    transition: opacity .3s
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBox__RyVq_ .VideoControl_nowTime__KsJlW {
+    text-align: center;
+    font-size: .24rem;
+    color: #fff;
+    font-weight: 700
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBox__RyVq_ .VideoControl_nowTime__KsJlW .VideoControl_durationTime__g6XlU {
+    opacity: .6;
+    font-weight: 400
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBox__RyVq_ .VideoControl_nowTime__KsJlW .VideoControl_durationTime__g6XlU:before {
+    content: "/";
+    display: inline-block;
+    margin: 0 .05rem
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBox__RyVq_ .VideoControl_muted___S5Zb {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBox__RyVq_ .VideoControl_muted___S5Zb .VideoControl_fullscreenIcon__Utb0x {
+    padding: .15rem;
+    width: .72rem;
+    height: .72rem
+}
+
+.VideoControl_controlBox__lY2MY .VideoControl_controlLine__SJrKc .VideoControl_timeBoxActive__xJ6_0 {
+    opacity: 1
+}
+
+.VideoControl_controlBoxFull__ss_vJ .VideoControl_controlLine__SJrKc {
+    height: 2.1rem
+}
+
+.VideoControl_controlBoxFull__ss_vJ .VideoControl_controlLine__SJrKc .VideoControl_progressBox__8RpRa {
+    bottom: .6rem
+}
+
+.videoGuide_videoGuide__ttJzy {
+    width: 6.15rem;
+    height: .82rem;
+    position: absolute;
+    bottom: 1.12rem;
+    left: .32rem;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    background-color: rgba(29,31,35,.8);
+    border-radius: .12rem
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t:before {
+    content: "";
+    width: .01rem;
+    height: .3rem;
+    background-color: hsla(0,0%,100%,.4)
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S {
+    width: .85rem;
+    height: .82rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk {
+    width: .38rem;
+    height: .38rem;
+    position: relative;
+    font-size: 0
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleLeft__s58wj,.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleRight__gJko1 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    overflow: hidden
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleLeft__s58wj:before,.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleRight__gJko1:before {
+    content: "";
+    display: inline-block;
+    width: .34rem;
+    height: .34rem;
+    border: .02rem solid #6e6f71;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg)
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleLeft__s58wj {
+    left: 0
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleLeft__s58wj:before {
+    left: 0;
+    border-bottom: .02rem solid #d1d1d1;
+    border-left: .02rem solid #d1d1d1
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleRight__gJko1 {
+    right: 0
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleRight__gJko1:before {
+    right: 0;
+    border-top: .02rem solid #d1d1d1;
+    border-right: .02rem solid #d1d1d1
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleLeft__s58wj:before {
+    animation: circleProgressLoad_left 5s linear
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_circleRight__gJko1:before {
+    animation: circleProgressLoad_right 5s linear
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideClose__9oE2t .videoGuide_guideCloseContainer__De07S .videoGuide_circleBox__P_bYk .videoGuide_guideCancel__XlpjL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: .14rem;
+    height: .14rem
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideBox__JDngI {
+    padding: .16rem .24rem;
+    width: 5.97rem;
+    height: .82rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideBox__JDngI .videoGuide_logoIcon__kJyms {
+    width: .48rem;
+    height: .48rem
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideBox__JDngI .videoGuide_guideText__VBj8j {
+    flex: 1 1;
+    text-align: left;
+    font-weight: 400;
+    font-size: .28rem;
+    color: hsla(0,0%,100%,.9);
+    padding: 0 .12rem;
+    white-space: nowrap
+}
+
+.videoGuide_videoGuide__ttJzy .videoGuide_guideBox__JDngI .videoGuide_openBtn__PY82G {
+    flex-shrink: 0;
+    display: inline-block;
+    padding: 0 .28rem;
+    height: .5rem;
+    background: linear-gradient(270deg,#ff871f,#ff0045 48%,#f40065);
+    border-radius: .25rem;
+    font-size: .28rem;
+    font-weight: 500;
+    color: #fff
+}
+
+.videoGuide_videoGuideFull__OpnZl {
+    bottom: 2.12rem
+}
+
+.videoPlayer_videoBox__QzYvq {
+    position: relative
+}
+
+.videoPlayer_videoBox__QzYvq video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #1a1a1a
+}
+
+.videoPlayer_videoBox__QzYvq video:-webkit-full-screen {
+    background-color: #1a1a1a
+}
+
+.videoPlayer_videoBox__QzYvq video:-webkit-full-screen,.videoPlayer_videoBox__QzYvq video:fullscreen {
+    background-color: #1a1a1a
+}
+
+.videoPlayer_videoBoxFull__OjM0N {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    z-index: 2147483647
+}
+
+.videoPlayer_videoBoxFull__OjM0N,.videoPlayer_videoBoxFull__OjM0N .videoPlayer_videoBox__QzYvq {
+    height: calc(var(--vh)*100)!important
+}

@@ -1,0 +1,16 @@
+services:
+  web:
+    image: nginx:latest
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - .:/var/www/html
+    ports:
+      - "8285:80"
+    depends_on:
+      - php
+
+  php:
+    image: wbso/wbsophp8.2fpm
+    user: 1000:1000
+    volumes:
+      - .:/var/www/html
