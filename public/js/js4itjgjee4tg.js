@@ -1,11 +1,11 @@
 // const toggleButton = document.getElementById("language-toggle");
-const languageContent = document.querySelector(
-    ".PcHeader_languageContent__XFTE1"
-);
+// const languageContent = document.querySelector(
+//     ".PcHeader_languageContent__XFTE1"
+// );
 // const arrowIcon = toggleButton.querySelector("img");
-const languageItems = document.querySelectorAll(
-    ".PcHeader_languageItem__DDFfF"
-);
+// const languageItems = document.querySelectorAll(
+//     ".PcHeader_languageItem__DDFfF"
+// );
 // const navItemText = toggleButton.querySelector(".PcHeader_navItemTxt__k3llp");
 
 // Toggle dropdown visibility
@@ -21,44 +21,44 @@ const languageItems = document.querySelectorAll(
 // });
 
 // Handle language item clicks
-languageItems.forEach((item) => {
-    item.addEventListener("click", () => {
-        // Remove 'selected' class from all items
-        languageItems.forEach((i) => i.classList.remove("selected"));
+// languageItems.forEach((item) => {
+//     item.addEventListener("click", () => {
+//         // Remove 'selected' class from all items
+//         languageItems.forEach((i) => i.classList.remove("selected"));
 
-        // Add 'selected' class to the clicked item
-        item.classList.add("selected");
+//         // Add 'selected' class to the clicked item
+//         item.classList.add("selected");
 
-        // Update the nav text to the selected language
-        navItemText.textContent = item.getAttribute("data-lang");
+//         // Update the nav text to the selected language
+//         navItemText.textContent = item.getAttribute("data-lang");
 
-        // Close the dropdown
-        languageContent.classList.remove("active");
-        arrowIcon.src = "images/arrow-down.png";
-    });
-});
+//         // Close the dropdown
+//         languageContent.classList.remove("active");
+//         arrowIcon.src = "images/arrow-down.png";
+//     });
+// });
 
-document.addEventListener("DOMContentLoaded", () => {
-    const languageContent = document.querySelector(
-        ".MLanguage_languageContent__fSXSD"
-    );
-    const toggleElements = document.querySelectorAll(
-        ".MLanguage_languageIcon__BZdmX, .MLanguage_rightBox__V7A6C"
-    );
+// document.addEventListener("DOMContentLoaded", () => {
+//     const languageContent = document.querySelector(
+//         ".MLanguage_languageContent__fSXSD"
+//     );
+//     const toggleElements = document.querySelectorAll(
+//         ".MLanguage_languageIcon__BZdmX, .MLanguage_rightBox__V7A6C"
+//     );
 
-    toggleElements.forEach((element) => {
-        element.addEventListener("click", (event) => {
-            event.stopPropagation(); // Prevent event bubbling
-            languageContent.style.display =
-                languageContent.style.display === "block" ? "none" : "block";
-        });
-    });
+//     toggleElements.forEach((element) => {
+//         element.addEventListener("click", (event) => {
+//             event.stopPropagation(); // Prevent event bubbling
+//             languageContent.style.display =
+//                 languageContent.style.display === "block" ? "none" : "block";
+//         });
+//     });
 
-    // Optional: Hide content when clicking outside
-    document.addEventListener("click", () => {
-        languageContent.style.display = "none";
-    });
-});
+//     // Optional: Hide content when clicking outside
+//     document.addEventListener("click", () => {
+//         languageContent.style.display = "none";
+//     });
+// });
 
 function redirectToNewURL(languageCode) {
     // Get the current URL
@@ -75,18 +75,20 @@ function redirectToNewURL(languageCode) {
 }
 
 const catalogBox = document.querySelector(".film_catalogBox__0DHTA");
-const dialogContainer = document.querySelector(
-    ".EpisodeDialog_dialogContainer__JCOtQ"
-);
-const closeIcon = document.querySelector(".EpisodeDialog_closeIcon__7oU_s");
+if (catalogBox) {
+    const dialogContainer = document.querySelector(
+        ".EpisodeDialog_dialogContainer__JCOtQ"
+    );
+    const closeIcon = document.querySelector(".EpisodeDialog_closeIcon__7oU_s");
 
-catalogBox.addEventListener("click", function () {
-    dialogContainer.hidden = false;
-});
+    catalogBox.addEventListener("click", function () {
+        dialogContainer.hidden = false;
+    });
 
-closeIcon.addEventListener("click", function () {
-    dialogContainer.hidden = true;
-});
+    closeIcon.addEventListener("click", function () {
+        dialogContainer.hidden = true;
+    });
+}
 
 function shareToFacebook() {
     var url = window.location.href;

@@ -97,9 +97,9 @@
                 </div>
                 <div class="EpisodeDialog_episodeList__WrvmV">
                     @foreach ($chapterlist as $key => $chapter)
-                        <a class="EpisodeDialog_episodeItem__Zvsgh"
+                        <a class="EpisodeDialog_episodeItem__Zvsgh" id="{{ $chapter->id . '_Episode-' . ($key + 1) }}"
                             href="{{ route('dramas.video', [$data->bookId, $data->bookNameEn, $chapter->id . '_Episode-' . $key + 1]) }}"
-                            style="display: inline-block;"><span>{{ $chapter->indexStr }}</span>
+                            style="display: inline-block;"><span>{{ ltrim($chapter->indexStr, '0') }}</span>
                         </a>
                     @endforeach
                 </div>
@@ -109,4 +109,18 @@
 @endsection
 @push('style')
     <link rel="stylesheet" href="{{ asset('css/cf8820e207bda6b8.css') }}" data-n-p="" />
+@endpush
+@push('script')
+    <script>
+        let movieHistory = JSON.parse(localStorage.getItem('movieHistory')) || {};
+        const bookId = window.location.pathname.split('/')[1];
+        if (movieHistory[bookId]) {
+            movieHistory[bookId].forEach(element => {
+                const episodeElement = document.getElementById(element);
+                if (episodeElement) {
+                    episodeElement.classList.add('!bg-red-300');
+                }
+            });
+        }
+    </script>
 @endpush

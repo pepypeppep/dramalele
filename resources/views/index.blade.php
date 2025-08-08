@@ -25,20 +25,45 @@
                 </div>
                 <div>
                     <div class="MorePagination_paginationWrap__2K3zJ">
-                        <div class="MorePagination_pageItem__847mF" style="opacity: 0.5; pointer-events: none;">
-                            <img alt="Previous" loading="lazy" width="32" height="32" decoding="async"
-                                class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
-                                src="{{ asset('images/pre_1.png') }}">
-                        </div>
+                        @if (request()->query('page') && request()->query('page') > 1)
+                            <a class="MorePagination_linkItem__AQVsa"
+                                href="{{ request()->query('page') == 2 ? '/' : '?page=' . (request()->query('page') - 1) }}">
+                                <img alt="Previous" loading="lazy" width="32" height="32" decoding="async"
+                                    class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
+                                    src="{{ asset('images/pre_1.png') }}">
+                            </a>
+                        @else
+                            <div class="MorePagination_pageItem__847mF" style="opacity: 0.5; pointer-events: none;">
+                                <img alt="Previous" loading="lazy" width="32" height="32" decoding="async"
+                                    class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
+                                    src="{{ asset('images/pre_1.png') }}">
+                            </div>
+                        @endif
 
                         <div class="MorePagination_linkItem__AQVsa">
                             {{ $pageNo }} / {{ $pages }} </div>
 
-                        <a class="MorePagination_linkItem__AQVsa" href="?page=2">
-                            <img alt="Next" loading="lazy" width="32" height="32" decoding="async"
-                                class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
-                                src="{{ asset('images/next_1.png') }}">
-                        </a>
+                        @if (!request()->query('page'))
+                            <a class="MorePagination_linkItem__AQVsa" href="?page=2">
+                                <img alt="Next" loading="lazy" width="32" height="32" decoding="async"
+                                    class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
+                                    src="{{ asset('images/next_1.png') }}">
+                            </a>
+                        @else
+                            @if (request()->query('page') < $pages)
+                                <a class="MorePagination_linkItem__AQVsa" href="?page={{ request()->query('page') + 1 }}">
+                                    <img alt="Next" loading="lazy" width="32" height="32" decoding="async"
+                                        class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
+                                        src="{{ asset('images/next_1.png') }}">
+                                </a>
+                            @else
+                                <div class="MorePagination_pageItem__847mF" style="opacity: 0.5; pointer-events: none;">
+                                    <img alt="Next" loading="lazy" width="32" height="32" decoding="async"
+                                        class="MorePagination_prevNextIcon__6bs7h" style="color:transparent"
+                                        src="{{ asset('images/next_1.png') }}">
+                                </div>
+                            @endif
+                        @endif
                     </div>
 
                     <div class="paginationCom_pageContent__wspPw">

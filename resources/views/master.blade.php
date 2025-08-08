@@ -71,7 +71,7 @@
                         class="search_navRightIcon__uQIzB" style="color:transparent"
                         src="{{ asset('images/home_search.png') }}" />
                     <input class="search_navRightInput__Z_cka" name="search" type="search" placeholder="Search"
-                        value=""
+                        value="{{ request('q') }}"
                         onkeydown="if(event.key === 'Enter'){window.location.href = '/search?q=' + encodeURIComponent(this.value);}" />
                 </div>
                 {{-- <div class="MHeader_navRight__vPNZu">
@@ -102,7 +102,7 @@
                         class="search_navRightIcon__uQIzB" style="color:transparent"
                         src="{{ asset('images/home_search.png') }}" />
                     <input class="search_navRightInput__Z_cka" name="search" type="search" placeholder="Search"
-                        value=""
+                        value="{{ request('q') }}"
                         onkeydown="if(event.key === 'Enter'){window.location.href = '/search?q=' + encodeURIComponent(this.value);}" />
                 </div>
             </div>
