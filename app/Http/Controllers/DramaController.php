@@ -18,7 +18,7 @@ class DramaController extends Controller
     public function index(Request $request)
     {
         $page = $request->input('page', 0);
-        $url = config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/browse/0/' . $page . '.json';
+        $url = config('services.dramabox.web') . '/_next/data/' . $this->buildId() . '/en/browse/0/' . $page . '.json';
         $req = Http::get($url);
         $response = json_decode($req->body());
         $booklist = $response->pageProps->bookList;
@@ -35,7 +35,7 @@ class DramaController extends Controller
     {
         $page = $request->input('page', 1);
         $q = $request->input('q');
-        $url = config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/search/' . $page . '.json?searchValue=' . $q . '&page=' . $page;
+        $url = config('services.dramabox.web') . '/_next/data/' . $this->buildId() . '/en/search/' . $page . '.json?searchValue=' . $q . '&page=' . $page;
         $req = Http::get($url);
         $response = json_decode($req->body());
         $pageNo = $response->pageProps->pageNo;
@@ -68,7 +68,7 @@ class DramaController extends Controller
      */
     public function show(Request $request, $id, $slug)
     {
-        $req = Http::get(config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/drama/' . $id . '/' . $slug . '.json');
+        $req = Http::get(config('services.dramabox.web') . '/_next/data/' . $this->buildId() . '/en/drama/' . $id . '/' . $slug . '.json');
         $response = json_decode($req->body());
         $data = $response->pageProps->bookInfo;
         $chapterlist = $response->pageProps->chapterList;
@@ -81,7 +81,7 @@ class DramaController extends Controller
      */
     public function video(Request $request, $id, $slug, $episode)
     {
-        $req = Http::get(config('services.dramabox.web') . '/_next/data/dramabox_prod_20250801/en/drama/' . $id . '/' . $slug . '.json');
+        $req = Http::get(config('services.dramabox.web') . '/_next/data/' . $this->buildId() . '/en/drama/' . $id . '/' . $slug . '.json');
         $response = json_decode($req->body());
         $data = $response->pageProps->bookInfo;
         $tabData = $response->pageProps->tabData;
@@ -145,6 +145,20 @@ class DramaController extends Controller
         // $videoSrc = '';
 
         return view('video', compact('data', 'chapterlist', 'episode', 'tabData', 'videoSrc'));
+    }
+
+    public function buildId()
+    {
+        $urlx = config('services.dramabox.web') . '/download';
+        $reqx = Http::get($urlx);
+        $content = $reqx->body();
+
+        preg_match_all('/_next\/static\/([^\/]+)/', $content, $matches);
+
+        $buildId = collect($matches[1] ?? [])
+            ->first(fn($id) => preg_match('/^dramabox_prod_\d+$/', $id));
+
+        return $buildId;
     }
 
     /**

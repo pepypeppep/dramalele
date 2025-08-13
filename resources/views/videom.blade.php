@@ -88,6 +88,12 @@
                 <div class="ellipsisIntro_retractIntroBox__T4pgA">{{ $data->introduction }}</div>
             </div>
 
+            <div class="flex justify-center w-full">
+                <a href="{{ route('dramas.index') }}"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded mb-3"
+                    style="color: #fff;">Back to Home</a>
+            </div>
+
             <div class="episodeList_epiList__iv7w_">
                 <div class="episodeList_titleList__WTUQd">
                     <p class="episodeList_titleLeft__Fkqc7">Episode List</p>
