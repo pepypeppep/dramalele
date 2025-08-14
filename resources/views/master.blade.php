@@ -73,6 +73,12 @@
 </head>
 
 <body>
+    @php
+        $currentUrl =
+            (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') .
+            "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $baseUrl = strpos($currentUrl, 'reelshort') !== false ? '/reelshort' : '/';
+    @endphp
     <div id="__next">
         <header class="MHeader_headerWrap__I8s6L">
             <div class="MHeader_homeHeaderBox__sT00I">
@@ -85,7 +91,7 @@
                         src="{{ asset('images/home_search.png') }}" />
                     <input class="search_navRightInput__Z_cka" name="search" type="search" placeholder="Search"
                         value="{{ request('q') }}"
-                        onkeydown="if(event.key === 'Enter'){window.location.href = '/search?q=' + encodeURIComponent(this.value);}" />
+                        onkeydown="if(event.key === 'Enter'){window.location.href = '{{ $baseUrl }}/search?q=' + encodeURIComponent(this.value);}" />
                 </div>
                 {{-- <div class="MHeader_navRight__vPNZu">
                     <a href="search">
@@ -116,7 +122,7 @@
                         src="{{ asset('images/home_search.png') }}" />
                     <input class="search_navRightInput__Z_cka" name="search" type="search" placeholder="Search"
                         value="{{ request('q') }}"
-                        onkeydown="if(event.key === 'Enter'){window.location.href = '/search?q=' + encodeURIComponent(this.value);}" />
+                        onkeydown="if(event.key === 'Enter'){window.location.href = '{{ $baseUrl }}/search?q=' + encodeURIComponent(this.value);}" />
                 </div>
             </div>
         </div>

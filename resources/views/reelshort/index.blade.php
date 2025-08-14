@@ -27,7 +27,7 @@
                         </div>
                     @endforeach
                 </div>
-                <div>
+                {{-- <div>
                     <div class="MorePagination_paginationWrap__2K3zJ">
                         @if (request()->query('page') && request()->query('page') > 1)
                             <a class="MorePagination_linkItem__AQVsa"
@@ -123,7 +123,7 @@
                             </div>
                         @endif
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </main>
