@@ -38,6 +38,10 @@ return [
         'web' => env('DRAMABOX_WEB_URL'),
         'api' => env('DRAMABOX_API_URL'),
     ],
+    'reelshort' => [
+        'web' => env('REELSHORT_WEB_URL'),
+        'api' => env('REELSHORT_API_URL'),
+    ],
 
 
 ];
