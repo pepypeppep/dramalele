@@ -80,13 +80,22 @@ class ReelController extends Controller
      */
     public function video(Request $request, $slug)
     {
+        $slug = str_replace("'", "-", str_replace(['.', ':', ','], '', $slug));
         $slugParts = explode('-', $slug);
         $chaptId = $slugParts[count($slugParts) - 2];
         $id = end($slugParts);
 
         // https://www.reelshort.com/_next/data/8241968/en/episodes/episode-1-the-housewife-who-touched-the-stars-67dba01135d052518404417c-il185cjzcj.json
-        $req = Http::get(config('services.reelshort.web') . '/_next/data/' . $this->buildId() . '/en/episodes/' . $slug . '.json');
+        $url = config('services.reelshort.web') . '/_next/data/' . $this->buildId() . '/en/episodes/' . $slug . '.json';
+        $urlTrailer = str_replace('episode-0', 'trailer', config('services.reelshort.web') . '/_next/data/' . $this->buildId() . '/en/episodes/' . $slug . '.json');
+        $req = Http::get($url);
         $response = json_decode($req->body());
+
+        if (isset($response->pageProps->__N_REDIRECT)) {
+            $req = Http::get($urlTrailer);
+            $response = json_decode($req->body());
+        }
+
         $data = $response->pageProps->data;
 
         $slugMin = str_replace([$chaptId, $id, '--'], '', $slug);
