@@ -65,6 +65,7 @@ class ReelController extends Controller
      */
     public function show(Request $request, $id, $slug)
     {
+        $slug = str_replace("'", "-", str_replace(['.', ':', ','], '', $slug));
         // https://www.reelshort.com/_next/data/8241968/en/movie/the-housewife-who-touched-the-stars-67dba01135d052518404417c.json
         $req = Http::get(config('services.reelshort.web') . '/_next/data/' . $this->buildId() . '/en/movie/' . $slug . '-' . $id . '.json');
         $response = json_decode($req->body());

@@ -7,30 +7,32 @@
                 <span>{{ $totalNum }}</span> results were found for <span>{{ request('q') }}</span>
             </div>
             @foreach ($booklist as $data)
-                <div class="RankingsBookItem_rankingsBookWrap__Dzv8Y">
-                    <div class="RankingsBookItem_imageItem1Wrap__KhEDB">
-                        <a class="RankingsBookItem_bookImage__xhWCo image_imageBox__Mubn5 image_imageScaleBox__JFwzM"
-                            href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">
-                            <img alt="{{ strtolower(str_replace(' ', '-', $data->book_title)) }}" loading="lazy" width="150"
-                                height="200" decoding="async" data-nimg="1" class="image_imageItem__IZeBT"
-                                style="color:transparent" src="{{ $data->book_pic }}">
-                        </a>
-                        <div class="RankingsBookItem_bookInfo__pgA5P">
-                            <a class="RankingsBookItem_bookName__kmTaH"
+                @if ($data->book_genre != 2)
+                    <div class="RankingsBookItem_rankingsBookWrap__Dzv8Y">
+                        <div class="RankingsBookItem_imageItem1Wrap__KhEDB">
+                            <a class="RankingsBookItem_bookImage__xhWCo image_imageBox__Mubn5 image_imageScaleBox__JFwzM"
                                 href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">
-                                <span
-                                    style="color: #FF375F">{{ strtolower(str_replace(' ', '-', $data->book_title)) }}</span>
+                                <img alt="{{ strtolower(str_replace(' ', '-', $data->book_title)) }}" loading="lazy"
+                                    width="150" height="200" decoding="async" data-nimg="1"
+                                    class="image_imageItem__IZeBT" style="color:transparent" src="{{ $data->book_pic }}">
                             </a>
-                            <a class="RankingsBookItem_bookLine2__ac9BK"
-                                href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">{{ $data->chapter_count }}<span>Episodes</span></a>
-                            <a class="RankingsBookItem_intro__oRUOH"
-                                href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">{{ $data->special_desc }}</a>
+                            <div class="RankingsBookItem_bookInfo__pgA5P">
+                                <a class="RankingsBookItem_bookName__kmTaH"
+                                    href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">
+                                    <span
+                                        style="color: #FF375F">{{ strtolower(str_replace(' ', '-', $data->book_title)) }}</span>
+                                </a>
+                                <a class="RankingsBookItem_bookLine2__ac9BK"
+                                    href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">{{ $data->chapter_count }}<span>Episodes</span></a>
+                                <a class="RankingsBookItem_intro__oRUOH"
+                                    href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">{{ $data->special_desc }}</a>
+                            </div>
+                            <a class="RankingsBookItem_readBtn__J_9gB"
+                                href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">Watch
+                                Now</a>
                         </div>
-                        <a class="RankingsBookItem_readBtn__J_9gB"
-                            href="{{ route('reelshort.show', [$data->book_id, strtolower(str_replace(' ', '-', $data->book_title))]) }}">Watch
-                            Now</a>
                     </div>
-                </div>
+                @endif
             @endforeach
         </div>
 

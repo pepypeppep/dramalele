@@ -9,22 +9,24 @@
                         @php
                             $title_slug = strtolower(str_replace(' ', '-', $data->book_title));
                         @endphp
-                        <div class="FirstList_itemBox__AfNNm">
-                            <a class="FirstList_bookImage__ZbBGO image_imageBox__Mubn5"
-                                href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}"><img alt="{{ $data->book_title }}"
-                                    loading="lazy" width="120" height="162" decoding="async" data-nimg="1"
-                                    class="image_imageItem__IZeBT" style="color:transparent"
-                                    src="{{ $data->book_pic }}"></a>
-                            <a class="FirstList_chapterCount__OyG6t"
-                                href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}">{{ $data->chapter_count }}
-                                Episodes</a>
-                            <a class="FirstList_bookName__cULmf"
-                                href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}">{{ $data->book_title }}</a>
-                            <div class="FirstList_bookNameBox__LdUXf">
-                                <a class="FirstList_bookNameHover__f03t0"
+                        @if ($data->book_genre != 2)
+                            <div class="FirstList_itemBox__AfNNm">
+                                <a class="FirstList_bookImage__ZbBGO image_imageBox__Mubn5"
+                                    href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}"><img
+                                        alt="{{ $data->book_title }}" loading="lazy" width="120" height="162"
+                                        decoding="async" data-nimg="1" class="image_imageItem__IZeBT"
+                                        style="color:transparent" src="{{ $data->book_pic }}"></a>
+                                <a class="FirstList_chapterCount__OyG6t"
+                                    href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}">{{ $data->chapter_count }}
+                                    Episodes</a>
+                                <a class="FirstList_bookName__cULmf"
                                     href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}">{{ $data->book_title }}</a>
+                                <div class="FirstList_bookNameBox__LdUXf">
+                                    <a class="FirstList_bookNameHover__f03t0"
+                                        href="/reelshort/{{ $data->book_id }}/{{ $title_slug }}">{{ $data->book_title }}</a>
+                                </div>
                             </div>
-                        </div>
+                        @endif
                     @endforeach
                 </div>
                 {{-- <div>
