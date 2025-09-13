@@ -172,14 +172,11 @@ class ReelController extends Controller
         $reqx = Http::get($urlx);
         $content = $reqx->body();
 
-        // Match `_next/static/(css|chunks|[0-9]+)`
-        preg_match_all('/_next\/static\/(?:css|chunks|(\d+))/', $content, $matches);
+        // Match the specific pattern in script tags
+        preg_match('/_next\/static\/([a-f0-9]+)\/_buildManifest\.js/', $content, $matches);
 
-        // Extract only numeric parts (like grep -Eo '[0-9]+')
-        $numbers = array_filter($matches[1], fn($n) => !empty($n));
-
-        // Return the first match (like head -n 1)
-        return reset($numbers) ?: null;
+        // Return the build ID if found, otherwise null
+        return $matches[1] ?? null;
     }
 
     public function newReleaseLink()
@@ -196,7 +193,7 @@ class ReelController extends Controller
 
     public function stream($path, Request $request)
     {
-        // dd($path);
+        // https://v-mps.crazymaplestudios.com/vod-112094/d05ae771732f71f0b05286c6360c0102/e50e9e5a9cca4875bf042de9bf627c3e-925303b62503d55b32fa2536bc8dbf33-sd.m3u8
         // $base = "https://v-mps.crazymaplestudios.com/vod-112094/306eb4db093f71f080095114c0db0102";
         // $url = $base . '/' . $path;
         $url = $path;
