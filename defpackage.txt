@@ -1,0 +1,1967 @@
+package defpackage;
+
+import java.util.Hashtable;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes03.dex */
+public final class gznq extends gznp {
+    public static final gzff A;
+    public static final gzff B;
+    public static final gzff C;
+    public static final gzff D;
+    public static final gzff E;
+    public static final gzff F;
+    public static final gzff G;
+    public static final gzff H;
+    public static final gzff I;
+    public static final gzff J;
+    public static final gzff K;
+    public static final gzff L;
+    public static final gzff M;
+    public static final gzno N;
+    private static final Hashtable Q;
+    private static final Hashtable R;
+    public static final gzff a;
+    public static final gzff b;
+    public static final gzff c;
+    public static final gzff d;
+    public static final gzff e;
+    public static final gzff f;
+    public static final gzff g;
+    public static final gzff h;
+    public static final gzff i;
+    public static final gzff j;
+    public static final gzff k;
+    public static final gzff l;
+    public static final gzff m;
+    public static final gzff n;
+    public static final gzff o;
+    public static final gzff p;
+    public static final gzff q;
+    public static final gzff r;
+    public static final gzff s;
+    public static final gzff t;
+    public static final gzff u;
+    public static final gzff v;
+    public static final gzff w;
+    public static final gzff x;
+    public static final gzff y;
+    public static final gzff z;
+    protected final Hashtable P = f(Q);
+    protected final Hashtable O = f(R);
+
+    static {
+        gzff gzffVarI = new gzff("2.5.4.6").i();
+        a = gzffVarI;
+        gzff gzffVarI2 = new gzff("2.5.4.10").i();
+        b = gzffVarI2;
+        gzff gzffVarI3 = new gzff("2.5.4.11").i();
+        c = gzffVarI3;
+        gzff gzffVarI4 = new gzff("2.5.4.12").i();
+        d = gzffVarI4;
+        gzff gzffVarI5 = new gzff("2.5.4.3").i();
+        e = gzffVarI5;
+        new gzff("2.5.4.5").i();
+        gzff gzffVarI6 = new gzff("2.5.4.9").i();
+        f = gzffVarI6;
+        gzff gzffVarI7 = new gzff("2.5.4.5").i();
+        g = gzffVarI7;
+        gzff gzffVarI8 = new gzff("2.5.4.7").i();
+        h = gzffVarI8;
+        gzff gzffVarI9 = new gzff("2.5.4.8").i();
+        i = gzffVarI9;
+        gzff gzffVarI10 = new gzff("2.5.4.4").i();
+        j = gzffVarI10;
+        gzff gzffVarI11 = new gzff("2.5.4.42").i();
+        k = gzffVarI11;
+        gzff gzffVarI12 = new gzff("2.5.4.43").i();
+        l = gzffVarI12;
+        gzff gzffVarI13 = new gzff("2.5.4.44").i();
+        m = gzffVarI13;
+        gzff gzffVarI14 = new gzff("2.5.4.45").i();
+        n = gzffVarI14;
+        gzff gzffVarI15 = new gzff("2.5.4.13").i();
+        o = gzffVarI15;
+        gzff gzffVarI16 = new gzff("2.5.4.15").i();
+        p = gzffVarI16;
+        gzff gzffVarI17 = new gzff("2.5.4.17").i();
+        q = gzffVarI17;
+        gzff gzffVarI18 = new gzff("2.5.4.46").i();
+        r = gzffVarI18;
+        gzff gzffVarI19 = new gzff("2.5.4.65").i();
+        s = gzffVarI19;
+        gzff gzffVarI20 = new gzff("2.5.4.72").i();
+        t = gzffVarI20;
+        gzff gzffVarI21 = gzpc.arz.f("1").i();
+        u = gzffVarI21;
+        gzff gzffVarI22 = gzpc.arz.f("2").i();
+        v = gzffVarI22;
+        gzff gzffVarI23 = gzpc.arz.f("3").i();
+        w = gzffVarI23;
+        gzff gzffVarI24 = gzpc.arz.f("4").i();
+        x = gzffVarI24;
+        gzff gzffVarI25 = gzpc.arz.f("5").i();
+        y = gzffVarI25;
+        gzff gzffVarI26 = new gzff("1.3.36.8.3.14").i();
+        z = gzffVarI26;
+        gzff gzffVarI27 = new gzff("2.5.4.16").i();
+        A = gzffVarI27;
+        new gzff("2.5.4.54").i();
+        gzff gzffVar = gzpc.b;
+        B = gzffVar;
+        gzff gzffVar2 = gzpc.aro;
+        C = gzffVar2;
+        gzff gzffVar3 = gzpc.arp;
+        D = gzffVar3;
+        gzff gzffVar4 = gzks.X;
+        E = gzffVar4;
+        gzff gzffVar5 = gzks.Y;
+        F = gzffVar5;
+        gzff gzffVar6 = gzks.ad;
+        G = gzffVar6;
+        H = gzffVar4;
+        gzff gzffVar7 = new gzff("0.9.2342.19200300.100.1.25");
+        I = gzffVar7;
+        gzff gzffVar8 = new gzff("0.9.2342.19200300.100.1.1");
+        J = gzffVar8;
+        gzff gzffVar9 = new gzff("1.3.6.1.4.1.311.60.2.1.3");
+        K = gzffVar9;
+        gzff gzffVar10 = new gzff("1.3.6.1.4.1.311.60.2.1.2");
+        L = gzffVar10;
+        gzff gzffVar11 = new gzff("1.3.6.1.4.1.311.60.2.1.1");
+        M = gzffVar11;
+        Hashtable hashtable = new Hashtable();
+        Q = hashtable;
+        Hashtable hashtable2 = new Hashtable();
+        R = hashtable2;
+        hashtable.put(gzffVarI, "C");
+        hashtable.put(gzffVarI2, "O");
+        hashtable.put(gzffVarI4, "T");
+        hashtable.put(gzffVarI3, "OU");
+        hashtable.put(gzffVarI5, "CN");
+        hashtable.put(gzffVarI8, "L");
+        hashtable.put(gzffVarI9, "ST");
+        hashtable.put(gzffVarI7, "SERIALNUMBER");
+        hashtable.put(gzffVar4, "E");
+        hashtable.put(gzffVar7, "DC");
+        hashtable.put(gzffVar8, "UID");
+        hashtable.put(gzffVarI6, "STREET");
+        hashtable.put(gzffVarI10, "SURNAME");
+        hashtable.put(gzffVarI11, "GIVENNAME");
+        hashtable.put(gzffVarI12, "INITIALS");
+        hashtable.put(gzffVarI13, "GENERATION");
+        hashtable.put(gzffVarI15, "DESCRIPTION");
+        hashtable.put(gzffVarI20, "ROLE");
+        hashtable.put(gzffVar6, "unstructuredAddress");
+        hashtable.put(gzffVar5, "unstructuredName");
+        hashtable.put(gzffVarI14, "UniqueIdentifier");
+        hashtable.put(gzffVarI18, "DN");
+        hashtable.put(gzffVarI19, "Pseudonym");
+        hashtable.put(gzffVarI27, "PostalAddress");
+        hashtable.put(gzffVarI26, "NameAtBirth");
+        hashtable.put(gzffVarI24, "CountryOfCitizenship");
+        hashtable.put(gzffVarI25, "CountryOfResidence");
+        hashtable.put(gzffVarI23, "Gender");
+        hashtable.put(gzffVarI22, "PlaceOfBirth");
+        hashtable.put(gzffVarI21, "DateOfBirth");
+        hashtable.put(gzffVarI17, "PostalCode");
+        hashtable.put(gzffVarI16, "BusinessCategory");
+        hashtable.put(gzffVar, "TelephoneNumber");
+        hashtable.put(gzffVar2, "Name");
+        hashtable.put(gzffVar3, "organizationIdentifier");
+        hashtable.put(gzffVar9, "jurisdictionCountry");
+        hashtable.put(gzffVar10, "jurisdictionState");
+        hashtable.put(gzffVar11, "jurisdictionLocality");
+        hashtable2.put("c", gzffVarI);
+        hashtable2.put("o", gzffVarI2);
+        hashtable2.put("t", gzffVarI4);
+        hashtable2.put("ou", gzffVarI3);
+        hashtable2.put("cn", gzffVarI5);
+        hashtable2.put("l", gzffVarI8);
+        hashtable2.put("st", gzffVarI9);
+        hashtable2.put("sn", gzffVarI10);
+        hashtable2.put("serialnumber", gzffVarI7);
+        hashtable2.put("street", gzffVarI6);
+        hashtable2.put("emailaddress", gzffVar4);
+        hashtable2.put("dc", gzffVar7);
+        hashtable2.put("e", gzffVar4);
+        hashtable2.put("uid", gzffVar8);
+        hashtable2.put("surname", gzffVarI10);
+        hashtable2.put("givenname", gzffVarI11);
+        hashtable2.put("initials", gzffVarI12);
+        hashtable2.put("generation", gzffVarI13);
+        hashtable2.put("description", gzffVarI15);
+        hashtable2.put("role", gzffVarI20);
+        hashtable2.put("unstructuredaddress", gzffVar6);
+        hashtable2.put("unstructuredname", gzffVar5);
+        hashtable2.put("uniqueidentifier", gzffVarI14);
+        hashtable2.put("dn", gzffVarI18);
+        hashtable2.put("pseudonym", gzffVarI19);
+        hashtable2.put("postaladdress", gzffVarI27);
+        hashtable2.put("nameatbirth", gzffVarI26);
+        hashtable2.put("countryofcitizenship", gzffVarI24);
+        hashtable2.put("countryofresidence", gzffVarI25);
+        hashtable2.put("gender", gzffVarI23);
+        hashtable2.put("placeofbirth", gzffVarI22);
+        hashtable2.put("dateofbirth", gzffVarI21);
+        hashtable2.put("postalcode", gzffVarI17);
+        hashtable2.put("businesscategory", gzffVarI16);
+        hashtable2.put("telephonenumber", gzffVar);
+        hashtable2.put("name", gzffVar2);
+        hashtable2.put("organizationidentifier", gzffVar3);
+        hashtable2.put("jurisdictioncountry", gzffVar9);
+        hashtable2.put("jurisdictionstate", gzffVar10);
+        hashtable2.put("jurisdictionlocality", gzffVar11);
+        N = new gznq();
+    }
+
+    protected gznq() {
+    }
+
+    @Override // defpackage.gzno
+    public final String b(gznm gznmVar) {
+        StringBuffer stringBuffer = new StringBuffer();
+        gznl[] gznlVarArrC = gznmVar.c();
+        boolean z2 = true;
+        int i2 = 0;
+        while (i2 < gznlVarArrC.length) {
+            if (!z2) {
+                stringBuffer.append(',');
+            }
+            gznr.g(stringBuffer, gznlVarArrC[i2], this.P);
+            i2++;
+            z2 = false;
+        }
+        return stringBuffer.toString();
+    }
+
+    @Override // defpackage.gzno
+    public final gzff d(String str) {
+        if (str.regionMatches(true, 0, "OID.", 0, 4)) {
+            return new gzff(str.substring(4));
+        }
+        gzff gzffVarJ = gzff.j(str);
+        if (gzffVarJ != null) {
+            return gzffVarJ;
+        }
+        gzff gzffVar = (gzff) this.O.get(hbkq.b(str));
+        if (gzffVar != null) {
+            return gzffVar;
+        }
+        throw new IllegalArgumentException(a.a(str, "Unknown object id - ", " - passed to distinguished name"));
+    }
+
+    @Override // defpackage.gznp
+    protected final gzeg g(gzff gzffVar, String str) {
+        return (gzffVar.y(E) || gzffVar.y(I)) ? new gzet(str) : gzffVar.y(u) ? new gzep(str) : (gzffVar.y(a) || gzffVar.y(g) || gzffVar.y(r) || gzffVar.y(B) || gzffVar.y(K)) ? new gzfm(str) : new gzgf(str);
+    }
+}
+
+
+package defpackage;
+
+import java.io.IOException;
+import java.util.Enumeration;
+import java.util.Hashtable;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes03.dex */
+public abstract class gznp implements gzno {
+    public static Hashtable f(Hashtable hashtable) {
+        Hashtable hashtable2 = new Hashtable();
+        Enumeration enumerationKeys = hashtable.keys();
+        while (enumerationKeys.hasMoreElements()) {
+            Object objNextElement = enumerationKeys.nextElement();
+            hashtable2.put(objNextElement, hashtable.get(objNextElement));
+        }
+        return hashtable2;
+    }
+
+    private static final int h(gzeg gzegVar) {
+        return gznr.b(gzegVar).hashCode();
+    }
+
+    @Override // defpackage.gzno
+    public final int a(gznm gznmVar) {
+        gznl[] gznlVarArrC = gznmVar.c();
+        int iHashCode = 0;
+        for (int i = 0; i != gznlVarArrC.length; i++) {
+            if (gznlVarArrC[i].c()) {
+                gznk[] gznkVarArrD = gznlVarArrC[i].d();
+                for (int i2 = 0; i2 != gznkVarArrD.length; i2++) {
+                    iHashCode = (iHashCode ^ gznkVarArrD[i2].a.hashCode()) ^ h(gznkVarArrD[i2].b);
+                }
+            } else {
+                iHashCode = (iHashCode ^ gznlVarArrC[i].b().a.hashCode()) ^ h(gznlVarArrC[i].b().b);
+            }
+        }
+        return iHashCode;
+    }
+
+    @Override // defpackage.gzno
+    public final gzeg c(gzff gzffVar, String str) {
+        if (str.length() == 0 || str.charAt(0) != '#') {
+            if (str.length() != 0 && str.charAt(0) == '\\') {
+                str = str.substring(1);
+            }
+            return g(gzffVar, str);
+        }
+        try {
+            int length = (str.length() - 1) / 2;
+            byte[] bArr = new byte[length];
+            for (int i = 0; i != length; i++) {
+                int i2 = i + i;
+                char cCharAt = str.charAt(i2 + 1);
+                bArr[i] = (byte) (gznr.a(str.charAt(i2 + 2)) | (gznr.a(cCharAt) << 4));
+            }
+            return gzfl.w(bArr);
+        } catch (IOException unused) {
+            throw new gzfk("can't recode value for oid ".concat(String.valueOf(gzffVar.b())));
+        }
+    }
+
+    @Override // defpackage.gzno
+    public final boolean e(gznm gznmVar, gznm gznmVar2) {
+        if (gznmVar.a() != gznmVar2.a()) {
+            return false;
+        }
+        gznl[] gznlVarArrC = gznmVar.c();
+        gznl[] gznlVarArrC2 = gznmVar2.c();
+        gznk gznkVarB = gznlVarArrC[0].b();
+        gznk gznkVarB2 = gznlVarArrC2[0].b();
+        boolean z = (gznkVarB == null || gznkVarB2 == null) ? false : !gznkVarB.a.y(gznkVarB2.a);
+        loop0: for (int i = 0; i != gznlVarArrC.length; i++) {
+            gznl gznlVar = gznlVarArrC[i];
+            if (!z) {
+                for (int i2 = 0; i2 != gznlVarArrC2.length; i2++) {
+                    gznl gznlVar2 = gznlVarArrC2[i2];
+                    if (gznlVar2 != null && gznr.i(gznlVar, gznlVar2)) {
+                        gznlVarArrC2[i2] = null;
+                    }
+                }
+                return false;
+            }
+            int length = gznlVarArrC2.length;
+            while (true) {
+                length--;
+                if (length < 0) {
+                    break loop0;
+                }
+                gznl gznlVar3 = gznlVarArrC2[length];
+                if (gznlVar3 != null && gznr.i(gznlVar, gznlVar3)) {
+                    gznlVarArrC2[length] = null;
+                    break;
+                }
+            }
+        }
+        return true;
+    }
+
+    protected gzeg g(gzff gzffVar, String str) {
+        throw null;
+    }
+}
+
+package defpackage;
+
+import j$.util.Objects;
+import java.io.UnsupportedEncodingException;
+import java.nio.ByteBuffer;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.PublicKey;
+import java.util.Arrays;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes14.dex */
+public final class bkyy {
+    public final byte[] a;
+
+    public bkyy(bkyx bkyxVar, byte[] bArr) {
+        ffnh.x(bArr);
+        if (bArr.length != 32) {
+            this.a = bArr;
+            return;
+        }
+        ByteBuffer byteBufferAllocate = ByteBuffer.allocate(33);
+        byteBufferAllocate.put(bkyxVar.d);
+        byteBufferAllocate.put(bArr);
+        this.a = byteBufferAllocate.array();
+    }
+
+    public static byte[] b(byte b, byte[] bArr, String str, PublicKey publicKey) throws NoSuchAlgorithmException {
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+            messageDigest.update(str.getBytes("UTF-8"));
+            messageDigest.update(publicKey.getEncoded());
+            ByteBuffer byteBufferAllocate = ByteBuffer.allocate(bArr.length + 1 + messageDigest.getDigestLength());
+            byteBufferAllocate.put(b);
+            byteBufferAllocate.put(bArr);
+            byteBufferAllocate.put(messageDigest.digest());
+            return byteBufferAllocate.array();
+        } catch (UnsupportedEncodingException | NoSuchAlgorithmException e) {
+            throw new RuntimeException("Error encoding keyHandle, broken crypto provider?", e);
+        }
+    }
+
+    public final bkyx a() throws blbh {
+        byte[] bArr = this.a;
+        int length = bArr.length;
+        if (length != 65 && length != 33) {
+            throw new blbh("Invalid key handle");
+        }
+        try {
+            return bkyx.a(bArr[0]);
+        } catch (IllegalArgumentException e) {
+            throw new blbh("Invalid key handle type", e);
+        }
+    }
+
+    public final byte[] c() {
+        byte[] bArr = this.a;
+        int length = bArr.length;
+        return length == 33 ? Arrays.copyOfRange(bArr, 1, 33) : Arrays.copyOf(bArr, length);
+    }
+
+    public final byte[] d() throws blbh {
+        byte[] bArr = this.a;
+        int length = bArr.length;
+        if (length == 65 || length == 33) {
+            return Arrays.copyOfRange(bArr, 1, 33);
+        }
+        throw new blbh("Invalid key handle");
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof bkyy) && Arrays.equals(this.a, ((bkyy) obj).a);
+    }
+
+    public final int hashCode() {
+        return Objects.hash(Integer.valueOf(Arrays.hashCode(this.a)));
+    }
+
+    public bkyy(byte[] bArr) {
+        this(bkyx.SOFTWARE_KEY, bArr);
+    }
+}
+
+package defpackage;
+
+import android.util.Log;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.regex.Pattern;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes20.dex */
+public final class qhv {
+    public static final Pattern a = Pattern.compile("\\p{XDigit}+");
+
+    public static byte a(byte[] bArr, int i, byte b) {
+        return (bArr[i] & b) == b ? (byte) 92 : (byte) -91;
+    }
+
+    public static int b(byte[] bArr, int i, byte[] bArr2, int i2, int i3) throws qgq {
+        int i4;
+        if (i + i3 > bArr.length || (i4 = i2 + i3) > bArr2.length) {
+            Log.e("amexhceclient", "::arrayCopy::Array Index Out of bound");
+            throw new qgq(qgp.e);
+        }
+        System.arraycopy(bArr, i, bArr2, i2, i3);
+        return i4;
+    }
+
+    public static int c(byte[] bArr, int i) {
+        return d(bArr[i], bArr[i + 1]);
+    }
+
+    public static int d(byte b, byte b2) {
+        return ((char) (b << 8)) | (b2 & 255);
+    }
+
+    public static int e(byte[] bArr, int i, long j) {
+        int i2 = 3;
+        while (i2 >= 0) {
+            bArr[i] = (byte) (j >> (i2 * 8));
+            i2--;
+            i++;
+        }
+        return i;
+    }
+
+    public static long f(byte[] bArr, int i) {
+        return (bArr[i + 3] & 255) | ((bArr[i + 1] & 255) << 16) | (bArr[i] << 24) | ((bArr[i + 2] & 255) << 8);
+    }
+
+    public static String g(byte[] bArr) {
+        if (bArr == null) {
+            return null;
+        }
+        int length = bArr.length;
+        StringBuilder sb = new StringBuilder(length + length);
+        for (byte b : bArr) {
+            sb.append(String.format("%02x", Integer.valueOf(b & 255)));
+        }
+        return sb.toString().toUpperCase();
+    }
+
+    public static String h(byte b) {
+        return String.format("%02x", Integer.valueOf(b & 255));
+    }
+
+    static String i(String str, int i) {
+        return String.format(a.m(i, "%1$", "s"), str).replace(' ', '0');
+    }
+
+    public static String j(int i) {
+        return String.format("%04x", Integer.valueOf((char) i));
+    }
+
+    public static MessageDigest k(int i) throws qgq {
+        try {
+            if (i == 170) {
+                return MessageDigest.getInstance("SHA1");
+            }
+            if (i == 41) {
+                return MessageDigest.getInstance("SHA256");
+            }
+            Log.e("amexhceclient", "Hash Algo not supported!!!");
+            throw new qgq(qgp.n);
+        } catch (Exception unused) {
+            Log.e("amexhceclient", "Hash Algo not supported!!!");
+            throw new qgq(qgp.n);
+        }
+    }
+
+    public static short l(byte[] bArr, int i, short s) {
+        bArr[i] = (byte) (s >> 8);
+        bArr[i + 1] = (byte) s;
+        return (short) (i + 2);
+    }
+
+    public static void m(byte[] bArr, int i, int i2, byte b) throws qgq {
+        if (i + i2 > bArr.length) {
+            throw new qgq("arrayFill::Array Index Out of bound!!!");
+        }
+        while (i2 > 0) {
+            i2--;
+            bArr[i + i2] = b;
+        }
+    }
+
+    public static byte[] n(String str) {
+        if (str == null) {
+            return null;
+        }
+        int length = str.length();
+        byte[] bArr = new byte[length >> 1];
+        for (int i = 0; i < length; i += 2) {
+            bArr[i / 2] = (byte) ((Character.digit(str.charAt(i), 16) << 4) + Character.digit(str.charAt(i + 1), 16));
+        }
+        return bArr;
+    }
+
+    public static long o(byte[] bArr) {
+        long j = 0;
+        int i = 5;
+        int i2 = 0;
+        while (true) {
+            byte b = bArr[i2];
+            j = (((j * 10) + ((b >> 4) & 15)) * 10) + (b & 15);
+            i--;
+            if (i == 0) {
+                return j;
+            }
+            i2++;
+        }
+    }
+
+    public static byte p(byte[] bArr, byte[] bArr2, int i, int i2) {
+        if (bArr == null || bArr2 == null || i2 > bArr.length || i + i2 > bArr2.length) {
+            return (byte) -91;
+        }
+        for (int i3 = 0; i3 < i2; i3++) {
+            if (bArr[i3] != bArr2[i + i3]) {
+                return (byte) -91;
+            }
+        }
+        return (byte) 92;
+    }
+
+    public static int q(byte[] bArr) {
+        return (bArr[15] & 255) | (bArr[12] << 24) | ((bArr[13] & 255) << 16) | ((bArr[14] & 255) << 8);
+    }
+
+    public static int r(String str) throws qgq {
+        if (str.length() >= 4) {
+            return Integer.parseInt(str.substring(0, 4), 16);
+        }
+        Log.e("amexhceclient", "::getShortFromHexString::String Index Out of bound");
+        throw new qgq(qgp.e);
+    }
+
+    public static byte[] s(byte[] bArr) throws qgq {
+        try {
+            return MessageDigest.getInstance("SHA256").digest(bArr);
+        } catch (NoSuchAlgorithmException unused) {
+            Log.e("amexhceclient", "Hash Algo not supported!!!");
+            throw new qgq(qgp.n);
+        }
+    }
+}
+
+package defpackage;
+
+import java.io.UnsupportedEncodingException;
+import java.nio.ByteBuffer;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.PublicKey;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes14.dex */
+final class bkjc {
+    public static byte[] a(String str, PublicKey publicKey) throws NoSuchAlgorithmException, bwgi {
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+            messageDigest.update(str.getBytes("UTF-8"));
+            messageDigest.update(publicKey.getEncoded());
+            return messageDigest.digest();
+        } catch (UnsupportedEncodingException | NoSuchAlgorithmException e) {
+            bwgg bwggVar = new bwgg();
+            bwggVar.a = 8;
+            bwggVar.c = e;
+            bwggVar.b = "Error creating rpId and public key hash";
+            throw bwggVar.a();
+        }
+    }
+
+    public static final byte[] b(blcb blcbVar, byte[] bArr, byte[] bArr2) {
+        int length = bArr.length + 1 + bArr2.length;
+        byte b = (byte) blcbVar.f;
+        ByteBuffer byteBufferAllocate = ByteBuffer.allocate(length);
+        byteBufferAllocate.put(b);
+        byteBufferAllocate.put(bArr);
+        byteBufferAllocate.put(bArr2);
+        return byteBufferAllocate.array();
+    }
+
+    public static final String c(blcb blcbVar, byte[] bArr, String str) {
+        return ffmy.d('.').g(Integer.valueOf(blcbVar.f), fhcv.d.o(bArr), str);
+    }
+}
+
+package defpackage;
+
+import j$.util.Objects;
+import java.nio.ByteBuffer;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.PublicKey;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes18.dex */
+public final class aecm extends aebo {
+    public final aecn c;
+
+    public aecm(gdib gdibVar, aecn aecnVar) {
+        super(gdibVar, aecnVar.toString());
+        this.c = aecnVar;
+    }
+
+    public static aecm a(aecn aecnVar, PublicKey publicKey) throws NoSuchAlgorithmException, bwgi {
+        String str = aecnVar.c;
+        MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+        messageDigest.update(str.getBytes(StandardCharsets.UTF_8));
+        byte[] encoded = publicKey.getEncoded();
+        if (encoded == null) {
+            throw bwgi.h(50127, "PublicKey does not support encoding: %s.", publicKey);
+        }
+        messageDigest.update(encoded);
+        byte[] bArrDigest = messageDigest.digest();
+        gdib gdibVar = aecnVar.b;
+        int iD = gdibVar.d() + 1 + bArrDigest.length;
+        int i = aecnVar.a;
+        ByteBuffer byteBufferAllocate = ByteBuffer.allocate(iD);
+        byteBufferAllocate.put((byte) i);
+        byteBufferAllocate.put(gdibVar.M());
+        byteBufferAllocate.put(bArrDigest);
+        return new aecm(gdib.w(byteBufferAllocate.array()), aecnVar);
+    }
+
+    @Override // defpackage.aebo, defpackage.aebm
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if ((obj instanceof aecm) && super.equals(obj)) {
+            return Objects.equals(this.c, ((aecm) obj).c);
+        }
+        return false;
+    }
+
+    @Override // defpackage.aebo, defpackage.aebm
+    public final int hashCode() {
+        return Objects.hash(Integer.valueOf(super.hashCode()), this.c);
+    }
+}
+
+package defpackage;
+
+import com.google.android.gms.auth.api.fido.PublicKeyCredentialCreationOptions;
+import com.google.android.gms.auth.api.fido.RegistrationOptions;
+import com.google.android.gms.fido.fido2.api.common.AttestationConveyancePreference;
+import j$.util.Objects;
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.interfaces.ECPublicKey;
+import java.security.spec.ECPoint;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes18.dex */
+public final class aedo implements flof {
+    public static final bwmc a = new bwmc(new ffor() { // from class: aedn
+        @Override // defpackage.ffor
+        public final Object lQ() {
+            return new aesi("BuildRegistrationAuthenticatorDataOperation");
+        }
+    });
+    private final RegistrationOptions b;
+    private final aebn c;
+
+    public aedo(RegistrationOptions registrationOptions, aebn aebnVar) {
+        this.b = registrationOptions;
+        this.c = aebnVar;
+    }
+
+    @Override // defpackage.flof
+    public final flqw a() throws NoSuchAlgorithmException, bwgi {
+        aebn aebnVar = this.c;
+        if (!(aebnVar instanceof aecr)) {
+            throw bwgi.f(50151, "The generated key has no public key.");
+        }
+        PublicKeyCredentialCreationOptions publicKeyCredentialCreationOptions = this.b.a;
+        boolean zG = adyy.g(publicKeyCredentialCreationOptions);
+        AttestationConveyancePreference attestationConveyancePreference = publicKeyCredentialCreationOptions.i;
+        boolean z = false;
+        if (attestationConveyancePreference != null && !Objects.equals(attestationConveyancePreference, AttestationConveyancePreference.NONE)) {
+            z = true;
+        }
+        gdib gdibVarW = gdib.w(new byte[16]);
+        gdki gdkiVar = gpap.b().b;
+        if (zG && gpdc.h() && (gdkiVar.contains("*") || gdkiVar.contains(publicKeyCredentialCreationOptions.a.a))) {
+            gdibVarW = gdib.w(fhcv.f.f().q(gpap.e()));
+        }
+        if (z && !zG) {
+            gdibVarW = gdib.w(fhcv.f.f().q(gpap.d()));
+        }
+        if (aebnVar instanceof aebp) {
+            gdibVarW = gdib.w(fhcv.f.f().q(gpap.a.lQ().c()));
+        }
+        ECPoint w = ((ECPublicKey) ((aecr) aebnVar).e()).getW();
+        try {
+            blau blauVar = new blau(gdibVarW.M(), this.c.b().a.M(), gdib.w(new blbg(blgz.ES256, blbf.SECP256R1, w.getAffineX(), w.getAffineY()).d()).M());
+            byte b = true != zG ? (byte) 69 : (byte) 93;
+            String str = this.b.a.a.a;
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+            messageDigest.update(str.getBytes());
+            return flqn.i(new blax(gdib.w(messageDigest.digest()).M(), b, 0L, blauVar, null));
+        } catch (IOException e) {
+            bwgg bwggVar = new bwgg();
+            bwggVar.c = e;
+            bwggVar.a = 50127;
+            bwggVar.b = "Failed to encode public key in COSE.";
+            throw bwggVar.a();
+        }
+    }
+}
+
+package defpackage;
+
+import android.accounts.Account;
+import android.util.Base64;
+import androidx.credentials.providerevents.playservices.DeviceSetupProviderPlayServices;
+import com.google.android.gms.chimera.modules.auth.credentials.base.AppContextProvider;
+import com.google.android.gms.fido.fido2.api.common.AuthenticatorAttestationResponse;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
+import java.util.concurrent.TimeUnit;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes18.dex */
+public final class aelg implements flof {
+    public static final bwmc a = new bwmc(new ffor() { // from class: aelf
+        @Override // defpackage.ffor
+        public final Object lQ() {
+            return new aesi("EnrollFidoCredentialRequestOperation");
+        }
+    });
+    public static final bauq b = aetl.b("EnrollFidoCredentialRequestOperation");
+    public final AuthenticatorAttestationResponse c;
+    public final Account d;
+    public final String e;
+    private final gdib f;
+
+    public aelg(AuthenticatorAttestationResponse authenticatorAttestationResponse, Account account, gdib gdibVar, String str) {
+        this.c = authenticatorAttestationResponse;
+        this.d = account;
+        this.f = gdibVar;
+        this.e = str;
+    }
+
+    @Override // defpackage.flof
+    public final flqw a() throws NoSuchAlgorithmException {
+        bguz bguzVarA = bgtz.a(AppContextProvider.a());
+        final gdib gdibVarA = bwfh.a(new SecureRandom(), 16);
+        MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+        messageDigest.update(fllg.d(this.f.M(), gdibVarA.M()));
+        byte[] bArrDigest = messageDigest.digest();
+        messageDigest.update(gdibVarA.M());
+        return bwni.g(dytr.m(bguzVarA.b("cryptauth_enrollfidocredential_request", ffyr.n("credential_public_key_bytes_hash", Base64.encodeToString(bArrDigest, 0), "salt", Base64.encodeToString(messageDigest.digest(), 0)), bgub.b()), 60000L, TimeUnit.MILLISECONDS)).e(new bwge(Exception.class).d(50189)).n(new flog() { // from class: aele
+            /* JADX WARN: Multi-variable type inference failed */
+            @Override // defpackage.flog
+            public final flqw a(Object obj) {
+                bguc bgucVar = (bguc) obj;
+                ((fgna) aelg.b.h()).x("DroidGuard snapshot received.");
+                afkt afktVar = (afkt) afkp.b.lQ();
+                gdjk gdjkVarV = frps.a.v();
+                aelg aelgVar = this.a;
+                gdib gdibVarX = gdib.x(aelgVar.e, StandardCharsets.UTF_8);
+                if (!gdjkVarV.b.O()) {
+                    gdjkVarV.V();
+                }
+                frps frpsVar = (frps) gdjkVarV.b;
+                frpsVar.b |= 2;
+                frpsVar.e = gdibVarX;
+                ffyi ffyiVarM = ffyi.m(fqkg.INTERNAL, fqkg.HYBRID);
+                if (!gdjkVarV.b.O()) {
+                    gdjkVarV.V();
+                }
+                frps frpsVar2 = (frps) gdjkVarV.b;
+                gdjz gdjzVar = frpsVar2.d;
+                if (!gdjzVar.c()) {
+                    frpsVar2.d = gdjq.C(gdjzVar);
+                }
+                fgla it = ffyiVarM.iterator();
+                while (it.hasNext()) {
+                    frpsVar2.d.i(((fqkg) it.next()).i);
+                }
+                gdjk gdjkVarV2 = frpr.a.v();
+                gdib gdibVarA2 = bgucVar.a();
+                if (!gdjkVarV2.b.O()) {
+                    gdjkVarV2.V();
+                }
+                gdib gdibVar = gdibVarA;
+                frpr frprVar = (frpr) gdjkVarV2.b;
+                frprVar.b |= 1;
+                frprVar.c = gdibVarA2;
+                String strEncodeToString = Base64.encodeToString(gdibVar.M(), 0);
+                if (!gdjkVarV2.b.O()) {
+                    gdjkVarV2.V();
+                }
+                gdjq gdjqVar = gdjkVarV2.b;
+                frpr frprVar2 = (frpr) gdjqVar;
+                strEncodeToString.getClass();
+                frprVar2.b |= 4;
+                frprVar2.e = strEncodeToString;
+                if (!gdjqVar.O()) {
+                    gdjkVarV2.V();
+                }
+                frpr frprVar3 = (frpr) gdjkVarV2.b;
+                frprVar3.b |= 2;
+                frprVar3.d = DeviceSetupProviderPlayServices.GMS_PACKAGE_NAME;
+                frpr frprVar4 = (frpr) gdjkVarV2.R();
+                if (!gdjkVarV.b.O()) {
+                    gdjkVarV.V();
+                }
+                frps frpsVar3 = (frps) gdjkVarV.b;
+                frprVar4.getClass();
+                frpsVar3.f = frprVar4;
+                frpsVar3.b |= 4;
+                gdjk gdjkVarV3 = fqki.a.v();
+                AuthenticatorAttestationResponse authenticatorAttestationResponse = aelgVar.c;
+                gdib gdibVar2 = authenticatorAttestationResponse.b;
+                if (!gdjkVarV3.b.O()) {
+                    gdjkVarV3.V();
+                }
+                gdjq gdjqVar2 = gdjkVarV3.b;
+                fqki fqkiVar = (fqki) gdjqVar2;
+                fqkiVar.b |= 2;
+                fqkiVar.d = gdibVar2;
+                gdib gdibVar3 = authenticatorAttestationResponse.a;
+                if (!gdjqVar2.O()) {
+                    gdjkVarV3.V();
+                }
+                fqki fqkiVar2 = (fqki) gdjkVarV3.b;
+                fqkiVar2.b |= 1;
+                fqkiVar2.c = gdibVar3;
+                if (!gdjkVarV.b.O()) {
+                    gdjkVarV.V();
+                }
+                Account account = aelgVar.d;
+                frps frpsVar4 = (frps) gdjkVarV.b;
+                fqki fqkiVar3 = (fqki) gdjkVarV3.R();
+                fqkiVar3.getClass();
+                frpsVar4.c = fqkiVar3;
+                frpsVar4.b |= 1;
+                return afktVar.c(account, (frps) gdjkVarV.R()).a();
+            }
+        });
+    }
+}
+
+package defpackage;
+
+import android.content.Context;
+import android.content.pm.Signature;
+import com.google.android.gms.auth.blockstore.AppRestoreInfo;
+import com.google.android.gms.auth.blockstore.logging.service.BufferedLogUploadTaskService;
+import j$.util.DesugarCollections;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes24.dex */
+public final class ahbn {
+    public static final bauq a = aheo.b("NotifyAppRestoreApiImpl");
+    private static final ffzs i = ffzs.M("com.google.android.apps.restore", "com.google.android.apps.pixelmigrate", "com.google.android.tungsten.setupwraith", "com.google.android.gms.api_test");
+    final String b;
+    public final ahhr c;
+    public final ahlv d;
+    public final Context e;
+    public final ffnd f;
+    private final Signature[] j;
+    private final ahdq k;
+    private final flpz l = new ahbl(this);
+    final flqz g = new bary(Integer.MAX_VALUE, 10);
+    final flqz h = new bary(Integer.MAX_VALUE, 9);
+
+    public ahbn(ahhr ahhrVar, ahlv ahlvVar, ahdq ahdqVar, String str, Signature[] signatureArr, Context context, ffnd ffndVar) {
+        this.c = ahhrVar;
+        this.d = ahlvVar;
+        this.k = ahdqVar;
+        this.b = str;
+        this.j = signatureArr;
+        this.e = context;
+        this.f = ffndVar;
+    }
+
+    public final flqw a(List list, final int i2, final AppRestoreInfo appRestoreInfo) throws NoSuchAlgorithmException {
+        if (!baum.c(glvz.d()) || !glvz.g()) {
+            ((fgna) a.h()).x("Feature flags are not enabled. Skip taking actions in onAppRestore.");
+            return flqq.a;
+        }
+        bauq bauqVar = a;
+        ((fgna) bauqVar.h()).x("Verifying API caller in onAppRestore.");
+        if (glvz.a.lQ().j()) {
+            ((fgna) bauqVar.h()).x("Signature verification disabled. Skipping.");
+        } else {
+            Signature[] signatureArr = this.j;
+            if (signatureArr == null || signatureArr.length != 1) {
+                ((fgna) bauqVar.h()).x("single cert required");
+                return flqn.h(new ahaa(8));
+            }
+            try {
+                String str = this.b;
+                Signature signature = signatureArr[0];
+                MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+                messageDigest.update(signature.toByteArray());
+                byte[] bArrDigest = messageDigest.digest();
+                String strQ = a.q(bArrDigest != null ? bavh.e(bArrDigest) : "", str, ":");
+                Context context = this.e;
+                String str2 = this.b;
+                if (!ahpq.a(context, str2) && !glvz.a.lQ().g().b.contains(strQ)) {
+                    ((fgna) bauqVar.h()).B("%s is not a valid 2P app, throwing Exception.", str2);
+                    return flqn.h(new ahaa(8));
+                }
+                if (ahpq.a(context, str2) && !i.contains(str2)) {
+                    ((fgna) bauqVar.h()).B("%s is not a valid 1P app, throwing Exception.", str2);
+                    return flqn.h(new ahaa(8));
+                }
+            } catch (NoSuchAlgorithmException e) {
+                ((fgna) ((fgna) a.i()).s(e)).B("Failed to get signature message digest for %s.", this.b);
+                return flqn.h(new ahaa(8));
+            }
+        }
+        if (list == null) {
+            ((fgna) bauqVar.i()).x("restoredPackages list is null. Failing the API invocation.");
+            return flqn.h(new ahaa(8));
+        }
+        gdjk gdjkVarV = vte.a.v();
+        int i3 = i2 != 0 ? i2 != 1 ? 1 : 3 : 2;
+        if (!gdjkVarV.b.O()) {
+            gdjkVarV.V();
+        }
+        gdjq gdjqVar = gdjkVarV.b;
+        vte vteVar = (vte) gdjqVar;
+        vteVar.c = i3 - 1;
+        vteVar.b |= 1;
+        String str3 = this.b;
+        if (!gdjqVar.O()) {
+            gdjkVarV.V();
+        }
+        vte vteVar2 = (vte) gdjkVarV.b;
+        str3.getClass();
+        vteVar2.b |= 2;
+        vteVar2.d = str3;
+        long size = list.size();
+        if (!gdjkVarV.b.O()) {
+            gdjkVarV.V();
+        }
+        vte vteVar3 = (vte) gdjkVarV.b;
+        vteVar3.b |= 4;
+        vteVar3.e = size;
+        vte vteVar4 = (vte) gdjkVarV.R();
+        ahdq ahdqVar = this.k;
+        ((fgna) ahdz.a.h()).x("Buffering an AppRestoreNotificationEvent");
+        gdjk gdjkVarV2 = ahof.a.v();
+        if (!gdjkVarV2.b.O()) {
+            gdjkVarV2.V();
+        }
+        gdjq gdjqVar2 = gdjkVarV2.b;
+        ahof ahofVar = (ahof) gdjqVar2;
+        ahofVar.e = 9;
+        ahofVar.b = 1 | ahofVar.b;
+        if (!gdjqVar2.O()) {
+            gdjkVarV2.V();
+        }
+        ahof ahofVar2 = (ahof) gdjkVarV2.b;
+        vteVar4.getClass();
+        ahofVar2.d = vteVar4;
+        ahofVar2.c = 3;
+        ahdz ahdzVar = (ahdz) ahdqVar;
+        int iD = ahdzVar.d();
+        if (!gdjkVarV2.b.O()) {
+            gdjkVarV2.V();
+        }
+        ahof ahofVar3 = (ahof) gdjkVarV2.b;
+        ahofVar3.b |= 2;
+        ahofVar3.f = iD;
+        final ahof ahofVar4 = (ahof) gdjkVarV2.R();
+        essz esszVar = ahdzVar.b;
+        ffmo ffmoVar = new ffmo() { // from class: ahdu
+            @Override // defpackage.ffmo
+            public final Object apply(Object obj) {
+                ahog ahogVar = (ahog) obj;
+                bauq bauqVar2 = ahdz.a;
+                gdjk gdjkVar = (gdjk) ahogVar.iT(5, null);
+                gdjkVar.Y(ahogVar);
+                gdjkVar.bO(ahofVar4);
+                return (ahog) gdjkVar.R();
+            }
+        };
+        flpi flpiVar = flpi.a;
+        flqn.t(flnw.g(flqm.h(esszVar.b(ffmoVar, flpiVar)), new flog() { // from class: ahbh
+            @Override // defpackage.flog
+            public final flqw a(Object obj) {
+                return BufferedLogUploadTaskService.d(this.a.e);
+            }
+        }, flpiVar), this.l, flpiVar);
+        ((fgna) bauqVar.h()).x("Upgrading access level for restoredPackages.");
+        final HashSet hashSet = new HashSet();
+        Iterator it = list.iterator();
+        while (it.hasNext()) {
+            String str4 = (String) it.next();
+            if (str4 == null) {
+                ((fgna) bauqVar.i()).x("restoredPackage is null. Skip granting access for it.");
+            } else {
+                ((fgna) bauqVar.h()).B("Upgrading access level for %s", str4);
+                hashSet.add(str4);
+            }
+        }
+        flqm flqmVarH = flqm.h(this.c.h(hashSet, this.f));
+        flog flogVar = new flog() { // from class: ahbi
+            @Override // defpackage.flog
+            public final flqw a(Object obj) {
+                final ffnd ffndVarJ;
+                int i4 = i2;
+                final ahbn ahbnVar = this.a;
+                if (i4 == 1 && glwh.g()) {
+                    AppRestoreInfo appRestoreInfo2 = appRestoreInfo;
+                    ((fgna) ahbn.a.h()).x("triggering cloud sync.");
+                    ahjf ahjfVarA = ahjg.a();
+                    ahjfVarA.c = 3;
+                    ahjfVarA.a = appRestoreInfo2.b;
+                    try {
+                        ahjfVarA.b(Long.parseLong(appRestoreInfo2.a));
+                        ahjfVarA.b = 2;
+                        ffndVarJ = ffnd.j(ahjfVarA.a());
+                    } catch (NumberFormatException e2) {
+                        ((fgna) ((fgna) ahbn.a.i()).s(e2)).x("Invalid Android Id.");
+                        ffndVarJ = ffld.a;
+                    }
+                    if (ffndVarJ.h()) {
+                        final HashSet hashSet2 = hashSet;
+                        flqz flqzVar = ahbnVar.g;
+                        final ahje ahjeVarB = ahje.b();
+                        flqn.t(flnw.g(flqm.h(flqzVar.submit(new Callable() { // from class: ahbd
+                            @Override // java.util.concurrent.Callable
+                            public final Object call() {
+                                bauq bauqVar2 = ahbn.a;
+                                return Integer.valueOf(ahjeVarB.a((ahjg) ffndVarJ.c()));
+                            }
+                        })), new flog() { // from class: ahbe
+                            @Override // defpackage.flog
+                            public final flqw a(Object obj2) {
+                                int iIntValue = ((Integer) obj2).intValue();
+                                Set set = hashSet2;
+                                if (iIntValue <= 0) {
+                                    return flqn.i(false);
+                                }
+                                ahbn ahbnVar2 = ahbnVar;
+                                if (glwo.d()) {
+                                    try {
+                                        ((flnj) ahbnVar2.c.h(set, ahbnVar2.f)).u();
+                                    } catch (InterruptedException | ExecutionException e3) {
+                                        ((fgna) ((fgna) ahbn.a.i()).s(e3)).x("data store operation failed.");
+                                    }
+                                }
+                                return ahbnVar2.b();
+                            }
+                        }, flqzVar), new ahbm(ahbnVar), flqzVar);
+                    } else {
+                        ((fgna) ahbn.a.j()).x("Failed to make a valid cloudRestoreRequest. Exiting.");
+                    }
+                }
+                return ahbnVar.b();
+            }
+        };
+        flqz flqzVar = this.h;
+        return flnw.g(flnw.g(flqmVarH, flogVar, flqzVar), new flog() { // from class: ahbj
+            @Override // defpackage.flog
+            public final flqw a(Object obj) {
+                final ahoy ahoyVar = ahoy.NOTIFIED;
+                ((fgna) ahnd.a.h()).B("Setting AppRestoreNotificationStatus bit to %s", ahoyVar);
+                ffmo ffmoVar2 = new ffmo() { // from class: ahmw
+                    @Override // defpackage.ffmo
+                    public final Object apply(Object obj2) {
+                        ahpo ahpoVar = (ahpo) obj2;
+                        bauq bauqVar2 = ahnd.a;
+                        gdjk gdjkVar = (gdjk) ahpoVar.iT(5, null);
+                        gdjkVar.Y(ahpoVar);
+                        if (!gdjkVar.b.O()) {
+                            gdjkVar.V();
+                        }
+                        ahoy ahoyVar2 = ahoyVar;
+                        ahpo ahpoVar2 = (ahpo) gdjkVar.b;
+                        ahpo ahpoVar3 = ahpo.a;
+                        ahpoVar2.i = ahoyVar2.c;
+                        ahpoVar2.b |= 16;
+                        return (ahpo) gdjkVar.R();
+                    }
+                };
+                ahlv ahlvVar = this.a.d;
+                return ((ahnd) ahlvVar).c.b(ffmoVar2, flpi.a);
+            }
+        }, flqzVar);
+    }
+
+    public final flqw b() {
+        ahnq ahnqVarA = ahnq.a().a();
+        if (glwo.d()) {
+            boolean zBooleanValue = false;
+            try {
+                ahlv ahlvVar = this.d;
+                final ffnd ffndVar = this.f;
+                ((fgna) ahnd.a.h()).x("Clearing all the restore credential without restore access");
+                final AtomicBoolean atomicBoolean = new AtomicBoolean(false);
+                essz esszVar = ((ahnd) ahlvVar).c;
+                ffmo ffmoVar = new ffmo() { // from class: ahml
+                    /* JADX WARN: Multi-variable type inference failed */
+                    @Override // defpackage.ffmo
+                    public final Object apply(Object obj) {
+                        ahpo ahpoVar = (ahpo) obj;
+                        bauq bauqVar = ahnd.a;
+                        gdjk gdjkVar = (gdjk) ahpoVar.iT(5, null);
+                        gdjkVar.Y(ahpoVar);
+                        ffnd ffndVar2 = ffndVar;
+                        if (ffndVar2.h()) {
+                            Object objC = ffndVar2.c();
+                            int iA = ahpi.a(ahpoVar.d);
+                            if (iA == 0) {
+                                iA = 1;
+                            }
+                            bauq bauqVar2 = ahnd.a;
+                            ArrayList arrayList = new ArrayList();
+                            if (ahpoVar.g((String) objC)) {
+                                ahpl ahplVar = (ahpl) ahpoVar.e.get(objC);
+                                if (ahplVar == null) {
+                                    throw new IllegalArgumentException();
+                                }
+                                for (Map.Entry entry : DesugarCollections.unmodifiableMap(ahplVar.c).entrySet()) {
+                                    try {
+                                        byte[] bArrQ = ahng.q(((ahpg) entry.getValue()).c.M(), iA);
+                                        gdjq gdjqVarY = gdjq.y(ahow.a, bArrQ, 0, bArrQ.length, gdiz.a());
+                                        gdjq.P(gdjqVarY);
+                                        ahow ahowVar = (ahow) gdjqVarY;
+                                        ahpe ahpeVar = ((ahpg) entry.getValue()).d;
+                                        if (ahpeVar == null) {
+                                            ahpeVar = ahpe.a;
+                                        }
+                                        ahpd ahpdVar = ahpeVar.e;
+                                        if (ahpdVar == null) {
+                                            ahpdVar = ahpd.a;
+                                        }
+                                        int iA2 = ahpc.a(ahpdVar.d);
+                                        if (iA2 == 0) {
+                                            iA2 = 1;
+                                        }
+                                        if (ahid.a(iA2 - 1)) {
+                                            ((fgna) bauqVar2.h()).B("Found a restore credential without access for package: %s", ahowVar.g);
+                                            arrayList.add((String) entry.getKey());
+                                        } else {
+                                            ((fgna) bauqVar2.h()).B("%s's access satisfied restore level", ahowVar.g);
+                                        }
+                                    } catch (ahnj e) {
+                                        ((fgna) ((fgna) bauqVar2.j()).s(e)).x("Unable to decrypt the potential restore credential entry.");
+                                    } catch (gdkl e2) {
+                                        ((fgna) ((fgna) bauqVar2.j()).s(e2)).x("The data was not a restore credential");
+                                    }
+                                }
+                            } else {
+                                ((fgna) bauqVar2.j()).x("Does not contain gms package key space.");
+                            }
+                            AtomicBoolean atomicBoolean2 = atomicBoolean;
+                            ahng.s(gdjkVar, (String) ffndVar2.c(), arrayList);
+                            atomicBoolean2.set(true);
+                        }
+                        return (ahpo) gdjkVar.R();
+                    }
+                };
+                flpi flpiVar = flpi.a;
+                zBooleanValue = ((Boolean) ((flnj) flnw.f(esszVar.b(ffmoVar, flpiVar), new ffmo() { // from class: ahmm
+                    @Override // defpackage.ffmo
+                    public final Object apply(Object obj) {
+                        bauq bauqVar = ahnd.a;
+                        return Boolean.valueOf(atomicBoolean.get());
+                    }
+                }, flpiVar)).u()).booleanValue();
+            } catch (InterruptedException | ExecutionException e) {
+                ((fgna) ((fgna) a.i()).s(e)).x("data store operation failed.");
+            }
+            ((fgna) a.h()).B("Deleted restore credential without access, success= %s", Boolean.valueOf(zBooleanValue));
+        }
+        return flnw.g(flqm.h(this.d.c(ahnqVarA)), new flog() { // from class: ahbk
+            /* JADX WARN: Multi-variable type inference failed */
+            @Override // defpackage.flog
+            public final flqw a(Object obj) {
+                ffyi ffyiVar = (ffyi) obj;
+                if (ffyiVar == null) {
+                    ((fgna) ahbn.a.i()).x("variable packageNames is null!");
+                    return flqn.h(new ahaa(8));
+                }
+                ((fgna) ahbn.a.h()).z("Found %s packages with Block data.", ffyiVar.size());
+                final ArrayList arrayList = new ArrayList();
+                int size = ffyiVar.size();
+                int i2 = 0;
+                while (true) {
+                    final ahbn ahbnVar = this.a;
+                    if (i2 >= size) {
+                        return flqn.c(arrayList).b(new flof() { // from class: ahbg
+                            @Override // defpackage.flof
+                            public final flqw a() {
+                                ArrayList arrayList2 = new ArrayList();
+                                ArrayList arrayList3 = arrayList;
+                                int size2 = arrayList3.size();
+                                for (int i3 = 0; i3 < size2; i3++) {
+                                    ffnd ffndVar2 = (ffnd) flqn.r((flqw) arrayList3.get(i3));
+                                    if (ffndVar2.h() && !arrayList2.contains(ffndVar2.c())) {
+                                        arrayList2.add((String) ffndVar2.c());
+                                    }
+                                }
+                                return ahbnVar.d.i(arrayList2);
+                            }
+                        }, ahbnVar.h);
+                    }
+                    final String str = (String) ffyiVar.get(i2);
+                    arrayList.add(flnw.f(flqm.h(ahbnVar.c.c(str)), new ffmo() { // from class: ahbf
+                        @Override // defpackage.ffmo
+                        public final Object apply(Object obj2) {
+                            bauq bauqVar = ahbn.a;
+                            return ahid.a(((Integer) obj2).intValue()) ? ffnd.j(str) : ffld.a;
+                        }
+                    }, ahbnVar.h));
+                    i2++;
+                }
+            }
+        }, flpi.a);
+    }
+}
+
+package defpackage;
+
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
+import android.os.Build;
+import com.google.android.gms.people.cpg.model.ActionPreferenceDocument;
+import com.google.android.gms.people.cpg.model.GroupContactOrder;
+import j$.util.Objects;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
+/* compiled from: :com.google.android.gms@253931013@25.39.31 (100400-813878953) */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes10.dex */
+public final class djjl {
+    public static flqw a(Context context) {
+        if (Build.VERSION.SDK_INT >= 33) {
+            djqa.e("People_AppSearchUtilities", "Using PlatformStorage API");
+            return afo.a(new afm(context, "cpg").a());
+        }
+        if (!gsou.a.lQ().aa()) {
+            return flqn.h(new IllegalStateException("Android version below T."));
+        }
+        djqa.e("People_AppSearchUtilities", "Using PlayServicesStorage API");
+        return ahi.a(new ahg(context, "cpg").a());
+    }
+
+    public static Map b(adi adiVar) {
+        aep aepVar = new aep();
+        aepVar.g("cpg:ActionPreference");
+        aepVar.f("action_preference");
+        aepVar.e((int) gsou.a.lQ().a());
+        return l(adiVar.b("", aepVar.a()), ActionPreferenceDocument.class);
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static Map c(adi adiVar, Set set) {
+        HashMap map = new HashMap();
+        try {
+            acm acmVar = (acm) adiVar.c(k(set, "group_contact_order")).get();
+            HashMap map2 = new HashMap();
+            try {
+                for (Map.Entry entry : acmVar.b().entrySet()) {
+                    map2.put((String) entry.getKey(), (GroupContactOrder) ((adp) entry.getValue()).i(GroupContactOrder.class));
+                }
+            } catch (afi e) {
+                if (gsou.A()) {
+                    djqa.c("People_AppSearchUtilities", "parseGroupContactOrderBatchResults for GroupContactOrder failed", e);
+                }
+            }
+            return map2;
+        } catch (InterruptedException | ExecutionException e2) {
+            if (gsou.A()) {
+                djqa.c("People_AppSearchUtilities", "getGroupContactOrders for AppSearchSession failed", e2);
+            }
+            return map;
+        }
+    }
+
+    public static Map d(aeo aeoVar) {
+        HashMap map = new HashMap();
+        while (true) {
+            try {
+                try {
+                    List list = (List) aeoVar.a().get(1L, TimeUnit.SECONDS);
+                    if (list.isEmpty()) {
+                        aeoVar.close();
+                        return map;
+                    }
+                    Iterator it = list.iterator();
+                    while (it.hasNext()) {
+                        adp adpVarA = ((aen) it.next()).a();
+                        map.put(adpVarA.k(), (GroupContactOrder) adpVarA.i(GroupContactOrder.class));
+                    }
+                } catch (afi | InterruptedException | ExecutionException | TimeoutException e) {
+                    if (gsou.A()) {
+                        djqa.c("People_AppSearchUtilities", "parseGroupContactOrderSearchResults failed", e);
+                    }
+                    return map;
+                }
+            } catch (Throwable th) {
+                try {
+                    aeoVar.close();
+                } catch (Throwable th2) {
+                    th.addSuppressed(th2);
+                }
+                throw th;
+            }
+        }
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static void e(Context context, Class cls, aer aerVar, ffyi ffyiVar) throws NoSuchAlgorithmException {
+        aerVar.i(cls);
+        int size = ffyiVar.size();
+        for (int i = 0; i < size; i++) {
+            String str = (String) ffyiVar.get(i);
+            ffnd ffndVarN = n(context, str);
+            if (ffndVarN.h()) {
+                adz adzVar = new adz(str, new Signature((String) ffndVarN.c()).toByteArray());
+                aerVar.b();
+                aerVar.h(adk.b().a(cls).d(), adzVar);
+            }
+        }
+    }
+
+    public static boolean f(Map map) {
+        Set set;
+        if (map != null && (set = (Set) map.get("cpg:GroupContactOrder")) != null) {
+            Iterator it = set.iterator();
+            while (it.hasNext()) {
+                if (((adz) it.next()).a().equals("com.google.android.contacts")) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static boolean g(adi adiVar, Set set) {
+        try {
+            aee aeeVar = new aee("group_contact_order");
+            aeeVar.b(set);
+            return ((acm) adiVar.f(aeeVar.a()).get()).c();
+        } catch (InterruptedException | ExecutionException e) {
+            djqa.c("People_AppSearchUtilities", "removeGroupContactOrders failed", e);
+            return false;
+        }
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static synchronized boolean h(adi adiVar, Map map, boolean z) {
+        boolean zC;
+        Map mapC = c(adiVar, map.keySet());
+        HashSet hashSet = new HashSet();
+        Iterator it = map.keySet().iterator();
+        while (true) {
+            zC = false;
+            if (it.hasNext()) {
+                String str = (String) it.next();
+                if (mapC.containsKey(str)) {
+                    GroupContactOrder groupContactOrder = (GroupContactOrder) mapC.get(str);
+                    long jA = ((GroupContactOrder) map.get(str)).a();
+                    if (m(z, jA) || groupContactOrder.a() == jA) {
+                        djnb djnbVar = new djnb((GroupContactOrder) map.get(str));
+                        djnbVar.b = !z;
+                        djnbVar.c = groupContactOrder.a() + 1;
+                        hashSet.add(djnbVar.a());
+                    } else {
+                        djqa.m("People_AppSearchUtilities", "updateGroupContactOrders failed on assertVersion %d", Long.valueOf(jA));
+                    }
+                } else {
+                    djnb djnbVar2 = new djnb((GroupContactOrder) map.get(str));
+                    djnbVar2.b = !z;
+                    djnbVar2.c = 1L;
+                    hashSet.add(djnbVar2.a());
+                }
+            } else {
+                try {
+                    break;
+                } catch (afi | InterruptedException | ExecutionException e) {
+                    if (gsou.A()) {
+                        djqa.c("People_AppSearchUtilities", "putGroupContactOrders failed", e);
+                        return false;
+                    }
+                }
+            }
+        }
+        aec aecVar = new aec();
+        aecVar.e(hashSet);
+        zC = ((acm) adiVar.e(aecVar.a()).get()).c();
+        return zC;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static Map i(adi adiVar, Set set, Class cls) {
+        HashMap map = new HashMap();
+        try {
+            acm acmVar = (acm) adiVar.c(k(set, "action_preference")).get();
+            String simpleName = cls.getSimpleName();
+            HashMap map2 = new HashMap();
+            try {
+                for (Map.Entry entry : acmVar.b().entrySet()) {
+                    map2.put((String) entry.getKey(), ((adp) entry.getValue()).i(cls));
+                }
+            } catch (afi e) {
+                if (gsou.A()) {
+                    djqa.c("People_AppSearchUtilities", "parseBatchResults failed for class: ".concat(String.valueOf(simpleName)), e);
+                }
+            }
+            return map2;
+        } catch (InterruptedException | ExecutionException e2) {
+            if (gsou.A()) {
+                djqa.c("People_AppSearchUtilities", "getDocumentsByIds for AppSearchSession failed, class: ".concat(String.valueOf(cls.getSimpleName())), e2);
+            }
+            return map;
+        }
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static synchronized boolean j(adi adiVar, Map map, Class cls) {
+        boolean zC = false;
+        if (!cls.equals(ActionPreferenceDocument.class)) {
+            return false;
+        }
+        Map mapI = i(adiVar, map.keySet(), cls);
+        HashSet hashSet = new HashSet();
+        for (String str : map.keySet()) {
+            ActionPreferenceDocument actionPreferenceDocument = (ActionPreferenceDocument) map.get(str);
+            long j = actionPreferenceDocument.j;
+            if (mapI.containsKey(str)) {
+                long j2 = ((ActionPreferenceDocument) mapI.get(str)).j;
+                if (m(false, j) || j2 == j) {
+                    djna djnaVar = new djna(actionPreferenceDocument);
+                    djnaVar.b();
+                    djnaVar.i = j2 + 1;
+                    hashSet.add(djnaVar.a());
+                } else {
+                    djqa.m("People_AppSearchUtilities", "updateActionPreferencesDocument failed on assertVersion %d", Long.valueOf(j));
+                }
+            } else {
+                djna djnaVar2 = new djna(actionPreferenceDocument);
+                djnaVar2.b();
+                djnaVar2.i = 1L;
+                hashSet.add(djnaVar2.a());
+            }
+        }
+        try {
+            aec aecVar = new aec();
+            aecVar.e(hashSet);
+            zC = ((acm) adiVar.e(aecVar.a()).get()).c();
+        } catch (afi | InterruptedException | ExecutionException e) {
+            if (gsou.A()) {
+                djqa.c("People_AppSearchUtilities", "putDocuments failed", e);
+                return false;
+            }
+        }
+        return zC;
+    }
+
+    private static adr k(Set set, String str) {
+        adq adqVar = new adq(str);
+        adqVar.b(set);
+        return adqVar.a();
+    }
+
+    private static Map l(aeo aeoVar, Class cls) {
+        HashMap map = new HashMap();
+        while (true) {
+            try {
+                try {
+                    List list = (List) aeoVar.a().get(1L, TimeUnit.SECONDS);
+                    if (list.isEmpty()) {
+                        aeoVar.close();
+                        return map;
+                    }
+                    Iterator it = list.iterator();
+                    while (it.hasNext()) {
+                        adp adpVarA = ((aen) it.next()).a();
+                        map.put(adpVarA.k(), adpVarA.i(cls));
+                    }
+                } catch (afi | InterruptedException | ExecutionException | TimeoutException e) {
+                    if (gsou.A()) {
+                        djqa.c("People_AppSearchUtilities", "parseSearchResults failed for document class: ".concat(String.valueOf(cls.getSimpleName())), e);
+                    }
+                    return map;
+                }
+            } catch (Throwable th) {
+                try {
+                    aeoVar.close();
+                } catch (Throwable th2) {
+                    th.addSuppressed(th2);
+                }
+                throw th;
+            }
+        }
+    }
+
+    private static boolean m(boolean z, long j) {
+        return !z && j <= 0;
+    }
+
+    private static ffnd n(Context context, String str) throws NoSuchAlgorithmException {
+        if (Objects.equals(str, "com.google.android.gms.test") || Objects.equals(str, "com.google.android.gms.people.testapp")) {
+            return ffnd.j("1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00");
+        }
+        try {
+            Signature[] signatureArr = context.getPackageManager().getPackageInfo(str, 64).signatures;
+            if (signatureArr.length <= 0) {
+                return ffld.a;
+            }
+            Signature signature = signatureArr[0];
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+            messageDigest.update(signature.toByteArray());
+            byte[] bArrDigest = messageDigest.digest();
+            StringBuilder sb = new StringBuilder();
+            for (byte b : bArrDigest) {
+                String hexString = Integer.toHexString(b & 255);
+                if (hexString.length() == 1) {
+                    sb.append("0");
+                }
+                sb.append(hexString);
+            }
+            return ffnd.j(sb.toString());
+        } catch (PackageManager.NameNotFoundException | NoSuchAlgorithmException unused) {
+            djqa.m("People_AppSearchUtilities", "getSignature failed for package %s", str);
+            return ffld.a;
+        }
+    }
+}
+
+package m84;
+
+import android.content.Context;
+import com.google.autofill.detection.ml.AndroidInputTypeSignal;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.concurrent.Callable;
+import java.util.concurrent.Executor;
+
+/* compiled from: :com.google.android.gms.policy_ads_fdr_dynamite@253405702@253405700017.794833465.794833465 */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes.dex */
+public final class aqt {
+    public final dba a;
+    private final asc b;
+    private final com.google.ads.afma.m c;
+
+    public aqt(final Context context, Executor executor, com.google.ads.afma.m mVar, asc ascVar) {
+        this.b = ascVar;
+        this.c = mVar;
+        this.a = das.j(new Callable() { // from class: m84.aqr
+            @Override // java.util.concurrent.Callable
+            public final Object call() {
+                return this.a.a(context);
+            }
+        }, executor);
+    }
+
+    private static String b(Context context) throws IOException {
+        File file = new File(context.getPackageResourcePath());
+        if (!file.exists() || !file.canRead()) {
+            return "";
+        }
+        try {
+            FileInputStream fileInputStream = new FileInputStream(file);
+            try {
+                byte[] bArr = new byte[AndroidInputTypeSignal.TYPE_TEXT_FLAG_CAP_SENTENCES];
+                MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+                for (int i = fileInputStream.read(bArr); i != -1; i = fileInputStream.read(bArr)) {
+                    messageDigest.update(bArr, 0, i);
+                }
+                String strI = cxj.f.f().i(messageDigest.digest());
+                fileInputStream.close();
+                return strI;
+            } catch (Throwable th) {
+                try {
+                    fileInputStream.close();
+                } catch (Throwable th2) {
+                    th.addSuppressed(th2);
+                }
+                throw th;
+            }
+        } catch (IOException | UnsupportedOperationException | NoSuchAlgorithmException unused) {
+            return "";
+        }
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:16:0x0033  */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.String a(android.content.Context r12) {
+        /*
+            r11 = this;
+            m84.asc r0 = r11.b
+            r1 = 31
+            java.lang.String r2 = "E"
+            if (r0 == 0) goto L33
+            com.google.ads.afma.m r3 = r11.c
+            boolean r4 = r3.e
+            if (r4 != 0) goto L33
+            m84.dba r0 = r0.a
+            int r4 = android.os.Build.VERSION.SDK_INT
+            if (r4 < r1) goto L1a
+            boolean r4 = r0.isDone()
+            if (r4 == 0) goto L33
+        L1a:
+            int r3 = r3.c     // Catch: java.lang.Throwable -> L33
+            long r3 = (long) r3     // Catch: java.lang.Throwable -> L33
+            java.util.concurrent.TimeUnit r5 = java.util.concurrent.TimeUnit.MILLISECONDS     // Catch: java.lang.Throwable -> L33
+            m84.cyv r0 = (m84.cyv) r0     // Catch: java.lang.Throwable -> L33
+            java.lang.Object r0 = r0.t(r3, r5)     // Catch: java.lang.Throwable -> L33
+            com.google.ads.afma.proto2api.f r0 = (com.google.ads.afma.proto2api.f) r0     // Catch: java.lang.Throwable -> L33
+            if (r0 == 0) goto L33
+            int r3 = r0.b     // Catch: java.lang.Throwable -> L33
+            r4 = 4194304(0x400000, float:5.877472E-39)
+            r3 = r3 & r4
+            if (r3 == 0) goto L33
+            java.lang.String r0 = r0.s     // Catch: java.lang.Throwable -> L33
+            goto L34
+        L33:
+            r0 = r2
+        L34:
+            boolean r3 = r0.equals(r2)
+            if (r3 == 0) goto Lb6
+            int r3 = android.os.Build.VERSION.SDK_INT
+            if (r3 >= r1) goto L40
+            goto Lb6
+        L40:
+            int r3 = android.os.Build.VERSION.SDK_INT     // Catch: java.lang.Throwable -> Lb6
+            java.lang.String r4 = ""
+            if (r3 >= r1) goto L4b
+            m84.dba r1 = m84.das.g(r4)     // Catch: java.lang.Throwable -> Lb6 java.lang.Throwable -> Lb6
+            goto La8
+        L4b:
+            java.lang.String r6 = r12.getPackageName()     // Catch: java.lang.Throwable -> La4
+            java.lang.String r1 = "X.509"
+            java.security.cert.CertificateFactory r1 = java.security.cert.CertificateFactory.getInstance(r1)     // Catch: java.lang.Throwable -> La4
+            m84.cxj r3 = m84.cxj.f     // Catch: java.lang.Throwable -> La4
+            m84.cxj r5 = r3.f()     // Catch: java.lang.Throwable -> La4
+            java.lang.String r7 = "308204433082032ba003020102020900c2e08746644a308d300d06092a864886f70d01010405003074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964301e170d3038303832313233313333345a170d3336303130373233313333345a3074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f696430820120300d06092a864886f70d01010105000382010d00308201080282010100ab562e00d83ba208ae0a966f124e29da11f2ab56d08f58e2cca91303e9b754d372f640a71b1dcb130967624e4656a7776a92193db2e5bfb724a91e77188b0e6a47a43b33d9609b77183145ccdf7b2e586674c9e1565b1f4c6a5955bff251a63dabf9c55c27222252e875e4f8154a645f897168c0b1bfc612eabf785769bb34aa7984dc7e2ea2764cae8307d8c17154d7ee5f64a51a44a602c249054157dc02cd5f5c0e55fbef8519fbe327f0b1511692c5a06f19d18385f5c4dbc2d6b93f68cc2979c70e18ab93866b3bd5db8999552a0e3b4c99df58fb918bedc182ba35e003c1b4b10dd244a8ee24fffd333872ab5221985edab0fc0d0b145b6aa192858e79020103a381d93081d6301d0603551d0e04160414c77d8cc2211756259a7fd382df6be398e4d786a53081a60603551d2304819e30819b8014c77d8cc2211756259a7fd382df6be398e4d786a5a178a4763074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964820900c2e08746644a308d300c0603551d13040530030101ff300d06092a864886f70d010104050003820101006dd252ceef85302c360aaace939bcff2cca904bb5d7a1661f8ae46b2994204d0ff4a68c7ed1a531ec4595a623ce60763b167297a7ae35712c407f208f0cb109429124d7b106219c084ca3eb3f9ad5fb871ef92269a8be28bf16d44c8d9a08e6cb2f005bb3fe2cb96447e868e731076ad45b33f6009ea19c161e62641aa99271dfd5228c5c587875ddb7f452758d661f6cc0cccb7352e424cc4365c523532f7325137593c4ae341f4db41edda0d0b1071a7c440f0fe9ea01cb627ca674369d084bd2fd911ff06cdbf2cfa10dc0f893ae35762919048c7efc64c7144178342f70581c9de573af55b390dd7fdb9418631895d5f759f30112687ff621410c069308a"
+            byte[] r5 = r5.j(r7)     // Catch: java.lang.Throwable -> La4
+            java.util.ArrayList r9 = new java.util.ArrayList     // Catch: java.lang.Throwable -> La4
+            r9.<init>()     // Catch: java.lang.Throwable -> La4
+            java.io.ByteArrayInputStream r7 = new java.io.ByteArrayInputStream     // Catch: java.lang.Throwable -> La4
+            r7.<init>(r5)     // Catch: java.lang.Throwable -> La4
+            java.security.cert.Certificate r5 = r1.generateCertificate(r7)     // Catch: java.lang.Throwable -> La4
+            r9.add(r5)     // Catch: java.lang.Throwable -> La4
+            java.lang.String r5 = android.os.Build.TYPE     // Catch: java.lang.Throwable -> La4
+            java.lang.String r7 = "user"
+            boolean r5 = r5.equals(r7)     // Catch: java.lang.Throwable -> La4
+            if (r5 != 0) goto L92
+            m84.cxj r3 = r3.f()     // Catch: java.lang.Throwable -> La4
+            java.lang.String r5 = "308204a830820390a003020102020900d585b86c7dd34ef5300d06092a864886f70d0101040500308194310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e20566965773110300e060355040a1307416e64726f69643110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643122302006092a864886f70d0109011613616e64726f696440616e64726f69642e636f6d301e170d3038303431353233333635365a170d3335303930313233333635365a308194310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e20566965773110300e060355040a1307416e64726f69643110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643122302006092a864886f70d0109011613616e64726f696440616e64726f69642e636f6d30820120300d06092a864886f70d01010105000382010d00308201080282010100d6ce2e080abfe2314dd18db3cfd3185cb43d33fa0c74e1bdb6d1db8913f62c5c39df56f846813d65bec0f3ca426b07c5a8ed5a3990c167e76bc999b927894b8f0b22001994a92915e572c56d2a301ba36fc5fc113ad6cb9e7435a16d23ab7dfaeee165e4df1f0a8dbda70a869d516c4e9d051196ca7c0c557f175bc375f948c56aae86089ba44f8aa6a4dd9a7dbf2c0a352282ad06b8cc185eb15579eef86d080b1d6189c0f9af98b1c2ebd107ea45abdb68a3c7838a5e5488c76c53d40b121de7bbd30e620c188ae1aa61dbbc87dd3c645f2f55f3d4c375ec4070a93f7151d83670c16a971abe5ef2d11890e1b8aef3298cf066bf9e6ce144ac9ae86d1c1b0f020103a381fc3081f9301d0603551d0e041604148d1cc5be954c433c61863a15b04cbc03f24fe0b23081c90603551d230481c13081be80148d1cc5be954c433c61863a15b04cbc03f24fe0b2a1819aa48197308194310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e20566965773110300e060355040a1307416e64726f69643110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643122302006092a864886f70d0109011613616e64726f696440616e64726f69642e636f6d820900d585b86c7dd34ef5300c0603551d13040530030101ff300d06092a864886f70d0101040500038201010019d30cf105fb78923f4c0d7dd223233d40967acfce00081d5bd7c6e9d6ed206b0e11209506416ca244939913d26b4aa0e0f524cad2bb5c6e4ca1016a15916ea1ec5dc95a5e3a010036f49248d5109bbf2e1e618186673a3be56daf0b77b1c229e3c255e3e84c905d2387efba09cbf13b202b4e5a22c93263484a23d2fc29fa9f1939759733afd8aa160f4296c2d0163e8182859c6643e9c1962fa0c18333335bc090ff9a6b22ded1ad444229a539a94eefadabd065ced24b3e51e5dd7b66787bef12fe97fba484c423fb4ff8cc494c02f0f5051612ff6529393e8e46eac5bb21f277c151aa5f2aa627d1e89da70ab6033569de3b9897bfff7ca9da3e1243f60b"
+            byte[] r3 = r3.j(r5)     // Catch: java.lang.Throwable -> La4
+            java.io.ByteArrayInputStream r5 = new java.io.ByteArrayInputStream     // Catch: java.lang.Throwable -> La4
+            r5.<init>(r3)     // Catch: java.lang.Throwable -> La4
+            java.security.cert.Certificate r1 = r1.generateCertificate(r5)     // Catch: java.lang.Throwable -> La4
+            r9.add(r1)     // Catch: java.lang.Throwable -> La4
+        L92:
+            m84.aqs r10 = new m84.aqs     // Catch: java.lang.Throwable -> La4
+            r10.<init>()     // Catch: java.lang.Throwable -> La4
+            android.content.pm.PackageManager r5 = r12.getPackageManager()     // Catch: java.lang.Throwable -> La4
+            r7 = 0
+            r8 = 8
+            r5.requestChecksums(r6, r7, r8, r9, r10)     // Catch: java.lang.Throwable -> La4
+            m84.dbm r1 = r10.a     // Catch: java.lang.Throwable -> La4
+            goto La8
+        La4:
+            m84.dba r1 = m84.das.g(r4)     // Catch: java.lang.Throwable -> Lb6 java.lang.Throwable -> Lb6
+        La8:
+            java.lang.Object r1 = r1.get()     // Catch: java.lang.Throwable -> Lb6 java.lang.Throwable -> Lb6
+            java.lang.String r1 = (java.lang.String) r1     // Catch: java.lang.Throwable -> Lb6 java.lang.Throwable -> Lb6
+            boolean r3 = m84.cms.b(r1)     // Catch: java.lang.Throwable -> Lb6 java.lang.Throwable -> Lb6
+            r4 = 1
+            if (r4 == r3) goto Lb6
+            r0 = r1
+        Lb6:
+            boolean r1 = r0.equals(r2)
+            if (r1 == 0) goto Lc6
+            com.google.ads.afma.m r1 = r11.c
+            boolean r1 = r1.b
+            if (r1 != 0) goto Lc6
+            java.lang.String r0 = b(r12)     // Catch: java.lang.ClassCastException -> Lc6
+        Lc6:
+            return r0
+        */
+        throw new UnsupportedOperationException("Method not decompiled: m84.aqt.a(android.content.Context):java.lang.String");
+    }
+}
+
+package m84;
+
+import android.content.Context;
+import android.content.pm.ApkChecksum;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager$OnChecksumsReadyListener;
+import android.os.Build;
+import android.text.TextUtils;
+import android.view.View;
+import com.google.autofill.detection.ml.AndroidInputTypeSignal;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
+import java.security.cert.CertificateFactory;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.Callable;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* compiled from: :com.google.android.gms.policy_ads_fdr_dynamite@253405702@253405700017.794833465.794833465 */
+/* loaded from: /Users/zasieun/code/pentest/frida/dumped_dex/classes.dex */
+final class byf implements bya, brr {
+    public final Context a;
+    public final bzb b;
+    public final bqk c;
+    public final dbb d;
+    private final AtomicBoolean f = new AtomicBoolean(false);
+    public dba e = das.g("E");
+
+    public byf(Context context, bzb bzbVar, bqk bqkVar, dbb dbbVar) {
+        this.a = context;
+        this.b = bzbVar;
+        this.c = bqkVar;
+        this.d = dbbVar;
+    }
+
+    static /* synthetic */ Object e(Context context, bqk bqkVar, final au auVar) throws PackageManager.NameNotFoundException, CertificateException {
+        if (Build.VERSION.SDK_INT < 31) {
+            auVar.b("");
+            return "";
+        }
+        try {
+            String packageName = context.getPackageName();
+            CertificateFactory certificateFactory = CertificateFactory.getInstance("X.509");
+            String strG = g(bqkVar.o, "308204433082032ba003020102020900c2e08746644a308d300d06092a864886f70d01010405003074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964301e170d3038303832313233313333345a170d3336303130373233313333345a3074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f696430820120300d06092a864886f70d01010105000382010d00308201080282010100ab562e00d83ba208ae0a966f124e29da11f2ab56d08f58e2cca91303e9b754d372f640a71b1dcb130967624e4656a7776a92193db2e5bfb724a91e77188b0e6a47a43b33d9609b77183145ccdf7b2e586674c9e1565b1f4c6a5955bff251a63dabf9c55c27222252e875e4f8154a645f897168c0b1bfc612eabf785769bb34aa7984dc7e2ea2764cae8307d8c17154d7ee5f64a51a44a602c249054157dc02cd5f5c0e55fbef8519fbe327f0b1511692c5a06f19d18385f5c4dbc2d6b93f68cc2979c70e18ab93866b3bd5db8999552a0e3b4c99df58fb918bedc182ba35e003c1b4b10dd244a8ee24fffd333872ab5221985edab0fc0d0b145b6aa192858e79020103a381d93081d6301d0603551d0e04160414c77d8cc2211756259a7fd382df6be398e4d786a53081a60603551d2304819e30819b8014c77d8cc2211756259a7fd382df6be398e4d786a5a178a4763074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964820900c2e08746644a308d300c0603551d13040530030101ff300d06092a864886f70d010104050003820101006dd252ceef85302c360aaace939bcff2cca904bb5d7a1661f8ae46b2994204d0ff4a68c7ed1a531ec4595a623ce60763b167297a7ae35712c407f208f0cb109429124d7b106219c084ca3eb3f9ad5fb871ef92269a8be28bf16d44c8d9a08e6cb2f005bb3fe2cb96447e868e731076ad45b33f6009ea19c161e62641aa99271dfd5228c5c587875ddb7f452758d661f6cc0cccb7352e424cc4365c523532f7325137593c4ae341f4db41edda0d0b1071a7c440f0fe9ea01cb627ca674369d084bd2fd911ff06cdbf2cfa10dc0f893ae35762919048c7efc64c7144178342f70581c9de573af55b390dd7fdb9418631895d5f759f30112687ff621410c069308a");
+            cxj cxjVar = cxj.f;
+            byte[] bArrJ = cxjVar.f().j(strG);
+            ArrayList arrayList = new ArrayList();
+            arrayList.add(certificateFactory.generateCertificate(new ByteArrayInputStream(bArrJ)));
+            if (!Build.TYPE.equals("user")) {
+                arrayList.add(certificateFactory.generateCertificate(new ByteArrayInputStream(cxjVar.f().j(g(bqkVar.p, "308204a830820390a003020102020900d585b86c7dd34ef5300d06092a864886f70d0101040500308194310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e20566965773110300e060355040a1307416e64726f69643110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643122302006092a864886f70d0109011613616e64726f696440616e64726f69642e636f6d301e170d3038303431353233333635365a170d3335303930313233333635365a308194310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e20566965773110300e060355040a1307416e64726f69643110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643122302006092a864886f70d0109011613616e64726f696440616e64726f69642e636f6d30820120300d06092a864886f70d01010105000382010d00308201080282010100d6ce2e080abfe2314dd18db3cfd3185cb43d33fa0c74e1bdb6d1db8913f62c5c39df56f846813d65bec0f3ca426b07c5a8ed5a3990c167e76bc999b927894b8f0b22001994a92915e572c56d2a301ba36fc5fc113ad6cb9e7435a16d23ab7dfaeee165e4df1f0a8dbda70a869d516c4e9d051196ca7c0c557f175bc375f948c56aae86089ba44f8aa6a4dd9a7dbf2c0a352282ad06b8cc185eb15579eef86d080b1d6189c0f9af98b1c2ebd107ea45abdb68a3c7838a5e5488c76c53d40b121de7bbd30e620c188ae1aa61dbbc87dd3c645f2f55f3d4c375ec4070a93f7151d83670c16a971abe5ef2d11890e1b8aef3298cf066bf9e6ce144ac9ae86d1c1b0f020103a381fc3081f9301d0603551d0e041604148d1cc5be954c433c61863a15b04cbc03f24fe0b23081c90603551d230481c13081be80148d1cc5be954c433c61863a15b04cbc03f24fe0b2a1819aa48197308194310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e20566965773110300e060355040a1307416e64726f69643110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643122302006092a864886f70d0109011613616e64726f696440616e64726f69642e636f6d820900d585b86c7dd34ef5300c0603551d13040530030101ff300d06092a864886f70d0101040500038201010019d30cf105fb78923f4c0d7dd223233d40967acfce00081d5bd7c6e9d6ed206b0e11209506416ca244939913d26b4aa0e0f524cad2bb5c6e4ca1016a15916ea1ec5dc95a5e3a010036f49248d5109bbf2e1e618186673a3be56daf0b77b1c229e3c255e3e84c905d2387efba09cbf13b202b4e5a22c93263484a23d2fc29fa9f1939759733afd8aa160f4296c2d0163e8182859c6643e9c1962fa0c18333335bc090ff9a6b22ded1ad444229a539a94eefadabd065ced24b3e51e5dd7b66787bef12fe97fba484c423fb4ff8cc494c02f0f5051612ff6529393e8e46eac5bb21f277c151aa5f2aa627d1e89da70ab6033569de3b9897bfff7ca9da3e1243f60b")))));
+            }
+            context.getPackageManager().requestChecksums(packageName, false, 8, arrayList, new PackageManager$OnChecksumsReadyListener() { // from class: m84.byd
+                public final void onChecksumsReady(List list) {
+                    au auVar2 = auVar;
+                    if (list == null) {
+                        auVar2.b("");
+                        return;
+                    }
+                    try {
+                        int size = list.size();
+                        for (int i = 0; i < size; i++) {
+                            ApkChecksum apkChecksum = (ApkChecksum) list.get(i);
+                            if (apkChecksum.getType() == 8) {
+                                auVar2.b(cxj.f.f().i(apkChecksum.getValue()));
+                                return;
+                            }
+                        }
+                    } catch (Throwable unused) {
+                    }
+                    auVar2.b("");
+                }
+            });
+            return "";
+        } catch (PackageManager.NameNotFoundException | NoClassDefFoundError | CertificateException unused) {
+            auVar.b("");
+            return "";
+        }
+    }
+
+    public static String f(Context context) throws IOException {
+        File file = new File(context.getPackageResourcePath());
+        if (!file.exists() || !file.canRead()) {
+            return "";
+        }
+        try {
+            FileInputStream fileInputStream = new FileInputStream(file);
+            try {
+                byte[] bArr = new byte[AndroidInputTypeSignal.TYPE_TEXT_FLAG_CAP_SENTENCES];
+                MessageDigest messageDigest = MessageDigest.getInstance("SHA256");
+                for (int i = fileInputStream.read(bArr); i != -1; i = fileInputStream.read(bArr)) {
+                    messageDigest.update(bArr, 0, i);
+                }
+                String strI = cxj.f.f().i(messageDigest.digest());
+                fileInputStream.close();
+                return strI;
+            } catch (Throwable th) {
+                try {
+                    fileInputStream.close();
+                } catch (Throwable th2) {
+                    th.addSuppressed(th2);
+                }
+                throw th;
+            }
+        } catch (IOException | UnsupportedOperationException | NoSuchAlgorithmException unused) {
+            return "";
+        }
+    }
+
+    private static String g(String... strArr) {
+        for (int i = 0; i < 2; i++) {
+            String str = strArr[i];
+            if (!TextUtils.isEmpty(str)) {
+                return str;
+            }
+        }
+        return "";
+    }
+
+    private final void h(Map map) {
+        synchronized (this) {
+            map.put("ai", this.e);
+        }
+    }
+
+    @Override // m84.brr
+    public final dba a() {
+        return this.f.getAndSet(true) ? dav.a : this.d.submit(new Callable() { // from class: m84.byb
+            @Override // java.util.concurrent.Callable
+            public final Object call() {
+                final byf byfVar = this.a;
+                cmk cmkVar = new cmk() { // from class: m84.byc
+                    @Override // m84.cmk
+                    public final Object apply(Object obj) {
+                        String str = (String) obj;
+                        return cms.b(str) ? byf.f(byfVar.a) : str;
+                    }
+                };
+                synchronized (byfVar) {
+                    bzb bzbVar = byfVar.b;
+                    final Context context = byfVar.a;
+                    final bqk bqkVar = byfVar.c;
+                    dba dbaVarI = czi.i(az.a(new aw() { // from class: m84.bye
+                        @Override // m84.aw
+                        public final Object a(au auVar) {
+                            return byf.e(context, bqkVar, auVar);
+                        }
+                    }), cmkVar, byfVar.d);
+                    bzbVar.d(52, dbaVarI);
+                    byfVar.e = dbaVarI;
+                }
+                return "";
+            }
+        });
+    }
+
+    @Override // m84.bya
+    public final void b(Map map) {
+        h(map);
+    }
+
+    @Override // m84.bya
+    public final void c(Map map) {
+        h(map);
+    }
+
+    @Override // m84.bya
+    public final void d(Map map, Context context, View view) {
+        h(map);
+    }
+}

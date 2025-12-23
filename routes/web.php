@@ -3,10 +3,17 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ReelController;
 use App\Http\Controllers\DramaController;
+use App\Http\Controllers\DramaboxController;
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+
+Route::get('/dramabox', [DramaboxController::class, 'index'])->name('dramabox.index');
+Route::get('/dramabox/search', [DramaboxController::class, 'search'])->name('dramabox.search');
+Route::get('/dramabox/{id}/{title}', [DramaboxController::class, 'show'])->name('dramabox.show');
+Route::get('/dramabox/{id}/{title}/{episode}', [DramaboxController::class, 'watch'])->name('dramabox.watch');
 
 Route::group(['prefix' => 'reelshort'], function () {
     Route::get('/', [ReelController::class, 'index'])->name('reelshort.index');
