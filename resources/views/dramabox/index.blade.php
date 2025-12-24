@@ -3,7 +3,7 @@
 @section('content')
     <!-- Navbar -->
     <header class="flex items-center justify-between px-4 py-3 bg-black sticky top-0 z-50">
-        <h1 class="text-xl font-bold text-red-500">DramaBox</h1>
+        <h1 class="text-xl font-bold text-red-500">DramaLele</h1>
         <a href="{{ route('dramabox.search') }}" class="text-sm text-gray-300">Search</a>
     </header>
 
