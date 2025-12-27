@@ -15,7 +15,8 @@ class DramaboxController extends Controller
         if ($request->ajax()) {
             $req = Http::withHeaders([
                 'accept' => '*/*',
-            ])->get('https://dramabox.sansekai.my.id/api/dramabox/latest');
+            ])->timeout(300)
+                ->get('https://dramabox.sansekai.my.id/api/dramabox/latest');
             $resp = json_decode($req->body());
 
             return view('dramabox.partials.thumbnail', compact('resp'));
@@ -47,7 +48,8 @@ class DramaboxController extends Controller
         if ($request->ajax()) {
             $req = Http::withHeaders([
                 'accept' => '*/*',
-            ])->get('https://dramabox.sansekai.my.id/api/dramabox/search?query=' . $request->keyword);
+            ])->timeout(300)
+                ->get('https://dramabox.sansekai.my.id/api/dramabox/search?query=' . $request->keyword);
             $resp = json_decode($req->body());
 
             return view('dramabox.partials.thumbnail', compact('resp'));
@@ -63,7 +65,8 @@ class DramaboxController extends Controller
     {
         $req = Http::withHeaders([
             'accept' => '*/*',
-        ])->get('https://dramabox.sansekai.my.id/api/dramabox/search?query=' . $title);
+        ])->timeout(300)
+            ->get('https://dramabox.sansekai.my.id/api/dramabox/search?query=' . $title);
         $detail = json_decode($req->body())[0];
 
         if (session("movie_$id")) {
